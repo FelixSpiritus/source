@@ -1,0 +1,8 @@
+C:\Users\Dmitry\source\repos\WindowsFormsControlLibraryWinTimer1\bin\Debug\WindowsFormsControlLibraryWinTimer1.dll
+C:\Users\Dmitry\source\repos\WindowsFormsControlLibraryWinTimer1\bin\Debug\WindowsFormsControlLibraryWinTimer1.pdb
+C:\Users\Dmitry\source\repos\WindowsFormsControlLibraryWinTimer1\obj\Debug\WindowsFormsControlLibraryWinTimer1.UserControl1.resources
+C:\Users\Dmitry\source\repos\WindowsFormsControlLibraryWinTimer1\obj\Debug\WindowsFormsControlLibraryWinTimer1.csproj.GenerateResource.cache
+C:\Users\Dmitry\source\repos\WindowsFormsControlLibraryWinTimer1\obj\Debug\WindowsFormsControlLibraryWinTimer1.csproj.CoreCompileInputs.cache
+C:\Users\Dmitry\source\repos\WindowsFormsControlLibraryWinTimer1\obj\Debug\WindowsFormsControlLibraryWinTimer1.dll
+C:\Users\Dmitry\source\repos\WindowsFormsControlLibraryWinTimer1\obj\Debug\WindowsFormsControlLibraryWinTimer1.pdb
+C:\Users\Dmitry\source\repos\WindowsFormsControlLibraryWinTimer1\obj\Debug\WindowsFormsControlLibraryWinTimer1.csproj.AssemblyReference.cache

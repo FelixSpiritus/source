@@ -1,0 +1,12 @@
+D:\fo lean\for Studio_C#\Windows_Course\My_Windows_C#\Стартовые проекты\Calc_Starter\CalculatorEngine\bin\Debug\CalculatorEngine.dll
+D:\fo lean\for Studio_C#\Windows_Course\My_Windows_C#\Стартовые проекты\Calc_Starter\CalculatorEngine\bin\Debug\CalculatorEngine.pdb
+D:\fo lean\for Studio_C#\Windows_Course\My_Windows_C#\Стартовые проекты\Calc_Starter\CalculatorEngine\obj\Debug\CalculatorEngine.csprojAssemblyReference.cache
+D:\fo lean\for Studio_C#\Windows_Course\My_Windows_C#\Стартовые проекты\Calc_Starter\CalculatorEngine\obj\Debug\CalculatorEngine.csproj.CoreCompileInputs.cache
+D:\fo lean\for Studio_C#\Windows_Course\My_Windows_C#\Стартовые проекты\Calc_Starter\CalculatorEngine\obj\Debug\CalculatorEngine.dll
+D:\fo lean\for Studio_C#\Windows_Course\My_Windows_C#\Стартовые проекты\Calc_Starter\CalculatorEngine\obj\Debug\CalculatorEngine.pdb
+D:\Documents\Dropbox\source\Calc_Starter\CalculatorEngine\bin\Debug\CalculatorEngine.dll
+D:\Documents\Dropbox\source\Calc_Starter\CalculatorEngine\bin\Debug\CalculatorEngine.pdb
+D:\Documents\Dropbox\source\Calc_Starter\CalculatorEngine\obj\Debug\CalculatorEngine.csproj.AssemblyReference.cache
+D:\Documents\Dropbox\source\Calc_Starter\CalculatorEngine\obj\Debug\CalculatorEngine.csproj.CoreCompileInputs.cache
+D:\Documents\Dropbox\source\Calc_Starter\CalculatorEngine\obj\Debug\CalculatorEngine.dll
+D:\Documents\Dropbox\source\Calc_Starter\CalculatorEngine\obj\Debug\CalculatorEngine.pdb

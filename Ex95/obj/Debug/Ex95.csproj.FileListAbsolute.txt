@@ -1,0 +1,7 @@
+C:\Users\Dmitry\source\repos\Ex95\bin\Debug\Ex95.exe.config
+C:\Users\Dmitry\source\repos\Ex95\bin\Debug\Ex95.exe
+C:\Users\Dmitry\source\repos\Ex95\bin\Debug\Ex95.pdb
+C:\Users\Dmitry\source\repos\Ex95\obj\Debug\Ex95.csproj.AssemblyReference.cache
+C:\Users\Dmitry\source\repos\Ex95\obj\Debug\Ex95.csproj.CoreCompileInputs.cache
+C:\Users\Dmitry\source\repos\Ex95\obj\Debug\Ex95.exe
+C:\Users\Dmitry\source\repos\Ex95\obj\Debug\Ex95.pdb

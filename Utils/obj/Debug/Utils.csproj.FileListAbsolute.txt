@@ -1,0 +1,7 @@
+C:\Users\Dmitry\source\repos\Utils\obj\Debug\Utils.csproj.AssemblyReference.cache
+C:\Users\Dmitry\source\repos\Utils\obj\Debug\Utils.csproj.CoreCompileInputs.cache
+C:\Users\Dmitry\source\repos\Utils\bin\Debug\Utils.exe.config
+C:\Users\Dmitry\source\repos\Utils\bin\Debug\Utils.exe
+C:\Users\Dmitry\source\repos\Utils\bin\Debug\Utils.pdb
+C:\Users\Dmitry\source\repos\Utils\obj\Debug\Utils.exe
+C:\Users\Dmitry\source\repos\Utils\obj\Debug\Utils.pdb

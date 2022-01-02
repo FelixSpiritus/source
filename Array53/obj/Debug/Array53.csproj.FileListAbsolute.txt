@@ -1,0 +1,7 @@
+C:\Users\Dmitry\source\repos\Array53\bin\Debug\Array53.exe.config
+C:\Users\Dmitry\source\repos\Array53\bin\Debug\Array53.exe
+C:\Users\Dmitry\source\repos\Array53\bin\Debug\Array53.pdb
+C:\Users\Dmitry\source\repos\Array53\obj\Debug\Array53.csproj.AssemblyReference.cache
+C:\Users\Dmitry\source\repos\Array53\obj\Debug\Array53.csproj.CoreCompileInputs.cache
+C:\Users\Dmitry\source\repos\Array53\obj\Debug\Array53.exe
+C:\Users\Dmitry\source\repos\Array53\obj\Debug\Array53.pdb

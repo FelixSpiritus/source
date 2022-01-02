@@ -1,0 +1,7 @@
+C:\Users\Dmitry\source\repos\MySqrt\bin\Debug\MySqrt.exe.config
+C:\Users\Dmitry\source\repos\MySqrt\bin\Debug\MySqrt.exe
+C:\Users\Dmitry\source\repos\MySqrt\bin\Debug\MySqrt.pdb
+C:\Users\Dmitry\source\repos\MySqrt\obj\Debug\MySqrt.csproj.AssemblyReference.cache
+C:\Users\Dmitry\source\repos\MySqrt\obj\Debug\MySqrt.csproj.CoreCompileInputs.cache
+C:\Users\Dmitry\source\repos\MySqrt\obj\Debug\MySqrt.exe
+C:\Users\Dmitry\source\repos\MySqrt\obj\Debug\MySqrt.pdb

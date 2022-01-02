@@ -1,0 +1,10 @@
+D:\Documents\Dropbox\source\WinTimer2\bin\Debug\WinTimer2.exe.config
+D:\Documents\Dropbox\source\WinTimer2\bin\Debug\WinTimer2.exe
+D:\Documents\Dropbox\source\WinTimer2\bin\Debug\WinTimer2.pdb
+D:\Documents\Dropbox\source\WinTimer2\obj\Debug\WinTimer2.csproj.AssemblyReference.cache
+D:\Documents\Dropbox\source\WinTimer2\obj\Debug\WinTimer2.Form1.resources
+D:\Documents\Dropbox\source\WinTimer2\obj\Debug\WinTimer2.Properties.Resources.resources
+D:\Documents\Dropbox\source\WinTimer2\obj\Debug\WinTimer2.csproj.GenerateResource.cache
+D:\Documents\Dropbox\source\WinTimer2\obj\Debug\WinTimer2.csproj.CoreCompileInputs.cache
+D:\Documents\Dropbox\source\WinTimer2\obj\Debug\WinTimer2.exe
+D:\Documents\Dropbox\source\WinTimer2\obj\Debug\WinTimer2.pdb

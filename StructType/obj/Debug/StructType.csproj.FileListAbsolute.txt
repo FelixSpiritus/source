@@ -1,0 +1,6 @@
+C:\Users\Dmitry\source\repos\StructType\bin\Debug\StructType.exe.config
+C:\Users\Dmitry\source\repos\StructType\bin\Debug\StructType.exe
+C:\Users\Dmitry\source\repos\StructType\bin\Debug\StructType.pdb
+C:\Users\Dmitry\source\repos\StructType\obj\Debug\StructType.csproj.CoreCompileInputs.cache
+C:\Users\Dmitry\source\repos\StructType\obj\Debug\StructType.exe
+C:\Users\Dmitry\source\repos\StructType\obj\Debug\StructType.pdb

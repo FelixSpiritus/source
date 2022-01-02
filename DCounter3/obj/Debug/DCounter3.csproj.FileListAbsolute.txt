@@ -1,0 +1,7 @@
+C:\Users\Dmitry\source\repos\DCounter3\bin\Debug\DCounter3.exe.config
+C:\Users\Dmitry\source\repos\DCounter3\bin\Debug\DCounter3.exe
+C:\Users\Dmitry\source\repos\DCounter3\bin\Debug\DCounter3.pdb
+C:\Users\Dmitry\source\repos\DCounter3\obj\Debug\DCounter3.csproj.AssemblyReference.cache
+C:\Users\Dmitry\source\repos\DCounter3\obj\Debug\DCounter3.csproj.CoreCompileInputs.cache
+C:\Users\Dmitry\source\repos\DCounter3\obj\Debug\DCounter3.exe
+C:\Users\Dmitry\source\repos\DCounter3\obj\Debug\DCounter3.pdb

@@ -1,0 +1,7 @@
+C:\Users\Dmitry\source\repos\TargetShooting\bin\Debug\TargetShooting.exe.config
+C:\Users\Dmitry\source\repos\TargetShooting\bin\Debug\TargetShooting.exe
+C:\Users\Dmitry\source\repos\TargetShooting\bin\Debug\TargetShooting.pdb
+C:\Users\Dmitry\source\repos\TargetShooting\obj\Debug\TargetShooting.csproj.AssemblyReference.cache
+C:\Users\Dmitry\source\repos\TargetShooting\obj\Debug\TargetShooting.csproj.CoreCompileInputs.cache
+C:\Users\Dmitry\source\repos\TargetShooting\obj\Debug\TargetShooting.exe
+C:\Users\Dmitry\source\repos\TargetShooting\obj\Debug\TargetShooting.pdb

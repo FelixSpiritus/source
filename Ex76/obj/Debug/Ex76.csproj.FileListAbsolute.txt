@@ -1,0 +1,7 @@
+C:\Users\Dmitry\source\repos\Ex76\bin\Debug\Ex76.exe.config
+C:\Users\Dmitry\source\repos\Ex76\bin\Debug\Ex76.exe
+C:\Users\Dmitry\source\repos\Ex76\bin\Debug\Ex76.pdb
+C:\Users\Dmitry\source\repos\Ex76\obj\Debug\Ex76.csproj.AssemblyReference.cache
+C:\Users\Dmitry\source\repos\Ex76\obj\Debug\Ex76.csproj.CoreCompileInputs.cache
+C:\Users\Dmitry\source\repos\Ex76\obj\Debug\Ex76.exe
+C:\Users\Dmitry\source\repos\Ex76\obj\Debug\Ex76.pdb

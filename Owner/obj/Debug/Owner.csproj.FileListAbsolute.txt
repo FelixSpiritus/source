@@ -1,0 +1,10 @@
+C:\Users\Dmitry\source\repos\Owner\bin\Debug\Owner.exe.config
+C:\Users\Dmitry\source\repos\Owner\bin\Debug\Owner.exe
+C:\Users\Dmitry\source\repos\Owner\bin\Debug\Owner.pdb
+C:\Users\Dmitry\source\repos\Owner\obj\Debug\Owner.Form1.resources
+C:\Users\Dmitry\source\repos\Owner\obj\Debug\Owner.Form2.resources
+C:\Users\Dmitry\source\repos\Owner\obj\Debug\Owner.Properties.Resources.resources
+C:\Users\Dmitry\source\repos\Owner\obj\Debug\Owner.csproj.GenerateResource.cache
+C:\Users\Dmitry\source\repos\Owner\obj\Debug\Owner.csproj.CoreCompileInputs.cache
+C:\Users\Dmitry\source\repos\Owner\obj\Debug\Owner.exe
+C:\Users\Dmitry\source\repos\Owner\obj\Debug\Owner.pdb

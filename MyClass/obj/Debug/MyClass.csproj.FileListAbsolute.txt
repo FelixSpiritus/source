@@ -1,0 +1,7 @@
+C:\Users\Dmitry\source\repos\MyClass\bin\Debug\MyClass.exe.config
+C:\Users\Dmitry\source\repos\MyClass\bin\Debug\MyClass.exe
+C:\Users\Dmitry\source\repos\MyClass\bin\Debug\MyClass.pdb
+C:\Users\Dmitry\source\repos\MyClass\obj\Debug\MyClass.csproj.AssemblyReference.cache
+C:\Users\Dmitry\source\repos\MyClass\obj\Debug\MyClass.csproj.CoreCompileInputs.cache
+C:\Users\Dmitry\source\repos\MyClass\obj\Debug\MyClass.exe
+C:\Users\Dmitry\source\repos\MyClass\obj\Debug\MyClass.pdb

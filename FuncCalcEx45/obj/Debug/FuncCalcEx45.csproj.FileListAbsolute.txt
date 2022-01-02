@@ -1,0 +1,11 @@
+C:\Users\Dmitry\source\repos\FuncCalcEx45\bin\Debug\FuncCalcEx45.exe.config
+C:\Users\Dmitry\source\repos\FuncCalcEx45\bin\Debug\FuncCalcEx45.exe
+C:\Users\Dmitry\source\repos\FuncCalcEx45\bin\Debug\FuncCalcEx45.pdb
+C:\Users\Dmitry\source\repos\FuncCalcEx45\obj\Debug\FuncCalcEx45.csproj.AssemblyReference.cache
+C:\Users\Dmitry\source\repos\FuncCalcEx45\obj\Debug\FuncCalcEx45.Form1.resources
+C:\Users\Dmitry\source\repos\FuncCalcEx45\obj\Debug\FuncCalcEx45.Properties.Resources.resources
+C:\Users\Dmitry\source\repos\FuncCalcEx45\obj\Debug\FuncCalcEx45.csproj.GenerateResource.cache
+C:\Users\Dmitry\source\repos\FuncCalcEx45\obj\Debug\FuncCalcEx45.csproj.CoreCompileInputs.cache
+C:\Users\Dmitry\source\repos\FuncCalcEx45\obj\Debug\FuncCalcEx45.exe
+C:\Users\Dmitry\source\repos\FuncCalcEx45\obj\Debug\FuncCalcEx45.pdb
+C:\Users\Dmitry\source\repos\FuncCalcEx45\obj\Debug\FuncCalcEx45.FormRange.resources

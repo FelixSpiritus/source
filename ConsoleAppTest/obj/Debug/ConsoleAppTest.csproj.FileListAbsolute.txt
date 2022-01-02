@@ -1,0 +1,7 @@
+D:\Documents\Dropbox\source\ConsoleAppTest\bin\Debug\ConsoleAppTest.exe.config
+D:\Documents\Dropbox\source\ConsoleAppTest\bin\Debug\ConsoleAppTest.exe
+D:\Documents\Dropbox\source\ConsoleAppTest\bin\Debug\ConsoleAppTest.pdb
+D:\Documents\Dropbox\source\ConsoleAppTest\obj\Debug\ConsoleAppTest.csproj.AssemblyReference.cache
+D:\Documents\Dropbox\source\ConsoleAppTest\obj\Debug\ConsoleAppTest.csproj.CoreCompileInputs.cache
+D:\Documents\Dropbox\source\ConsoleAppTest\obj\Debug\ConsoleAppTest.exe
+D:\Documents\Dropbox\source\ConsoleAppTest\obj\Debug\ConsoleAppTest.pdb

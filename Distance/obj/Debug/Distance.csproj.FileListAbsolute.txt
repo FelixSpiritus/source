@@ -1,0 +1,7 @@
+C:\Users\Dmitry\source\repos\Distance\bin\Debug\Distance.exe.config
+C:\Users\Dmitry\source\repos\Distance\bin\Debug\Distance.exe
+C:\Users\Dmitry\source\repos\Distance\bin\Debug\Distance.pdb
+C:\Users\Dmitry\source\repos\Distance\obj\Debug\Distance.csproj.AssemblyReference.cache
+C:\Users\Dmitry\source\repos\Distance\obj\Debug\Distance.csproj.CoreCompileInputs.cache
+C:\Users\Dmitry\source\repos\Distance\obj\Debug\Distance.exe
+C:\Users\Dmitry\source\repos\Distance\obj\Debug\Distance.pdb

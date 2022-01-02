@@ -1,0 +1,10 @@
+C:\Users\Dmitry\source\repos\WindowsFormsAppEx1.5.3\bin\Debug\WindowsFormsAppEx1.5.3.exe.config
+C:\Users\Dmitry\source\repos\WindowsFormsAppEx1.5.3\bin\Debug\WindowsFormsAppEx1.5.3.exe
+C:\Users\Dmitry\source\repos\WindowsFormsAppEx1.5.3\bin\Debug\WindowsFormsAppEx1.5.3.pdb
+C:\Users\Dmitry\source\repos\WindowsFormsAppEx1.5.3\obj\Debug\WindowsFormsAppEx1._5._3.Form1.resources
+C:\Users\Dmitry\source\repos\WindowsFormsAppEx1.5.3\obj\Debug\WindowsFormsAppEx1._5._3.Properties.Resources.resources
+C:\Users\Dmitry\source\repos\WindowsFormsAppEx1.5.3\obj\Debug\WindowsFormsAppEx1.5.3.csproj.GenerateResource.cache
+C:\Users\Dmitry\source\repos\WindowsFormsAppEx1.5.3\obj\Debug\WindowsFormsAppEx1.5.3.csproj.CoreCompileInputs.cache
+C:\Users\Dmitry\source\repos\WindowsFormsAppEx1.5.3\obj\Debug\WindowsFormsAppEx1.5.3.exe
+C:\Users\Dmitry\source\repos\WindowsFormsAppEx1.5.3\obj\Debug\WindowsFormsAppEx1.5.3.pdb
+C:\Users\Dmitry\source\repos\WindowsFormsAppEx1.5.3\obj\Debug\WindowsFormsAppEx1.5.3.csproj.AssemblyReference.cache

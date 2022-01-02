@@ -1,0 +1,7 @@
+C:\Users\Dmitry\source\repos\Ex84\obj\Debug\Ex84.csproj.AssemblyReference.cache
+C:\Users\Dmitry\source\repos\Ex84\obj\Debug\Ex84.csproj.CoreCompileInputs.cache
+C:\Users\Dmitry\source\repos\Ex84\bin\Debug\Ex84.exe.config
+C:\Users\Dmitry\source\repos\Ex84\bin\Debug\Ex84.exe
+C:\Users\Dmitry\source\repos\Ex84\bin\Debug\Ex84.pdb
+C:\Users\Dmitry\source\repos\Ex84\obj\Debug\Ex84.exe
+C:\Users\Dmitry\source\repos\Ex84\obj\Debug\Ex84.pdb

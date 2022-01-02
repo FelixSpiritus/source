@@ -1,0 +1,9 @@
+C:\Users\Dmitry\source\repos\RegistrationForm\bin\Debug\RegistrationForm.exe.config
+C:\Users\Dmitry\source\repos\RegistrationForm\bin\Debug\RegistrationForm.exe
+C:\Users\Dmitry\source\repos\RegistrationForm\bin\Debug\RegistrationForm.pdb
+C:\Users\Dmitry\source\repos\RegistrationForm\obj\Debug\RegistrationForm.Form1.resources
+C:\Users\Dmitry\source\repos\RegistrationForm\obj\Debug\RegistrationForm.Properties.Resources.resources
+C:\Users\Dmitry\source\repos\RegistrationForm\obj\Debug\RegistrationForm.csproj.GenerateResource.cache
+C:\Users\Dmitry\source\repos\RegistrationForm\obj\Debug\RegistrationForm.csproj.CoreCompileInputs.cache
+C:\Users\Dmitry\source\repos\RegistrationForm\obj\Debug\RegistrationForm.exe
+C:\Users\Dmitry\source\repos\RegistrationForm\obj\Debug\RegistrationForm.pdb

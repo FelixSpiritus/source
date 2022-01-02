@@ -1,0 +1,7 @@
+C:\Users\Dmitry\source\repos\EducationalCenter\bin\Debug\EducationalCenter.exe.config
+C:\Users\Dmitry\source\repos\EducationalCenter\bin\Debug\EducationalCenter.exe
+C:\Users\Dmitry\source\repos\EducationalCenter\bin\Debug\EducationalCenter.pdb
+C:\Users\Dmitry\source\repos\EducationalCenter\obj\Debug\EducationalCenter.csproj.AssemblyReference.cache
+C:\Users\Dmitry\source\repos\EducationalCenter\obj\Debug\EducationalCenter.csproj.CoreCompileInputs.cache
+C:\Users\Dmitry\source\repos\EducationalCenter\obj\Debug\EducationalCenter.exe
+C:\Users\Dmitry\source\repos\EducationalCenter\obj\Debug\EducationalCenter.pdb

@@ -1,0 +1,7 @@
+C:\Users\Dmitry\source\repos\Ex64\obj\Debug\Ex64.csproj.AssemblyReference.cache
+C:\Users\Dmitry\source\repos\Ex64\obj\Debug\Ex64.csproj.CoreCompileInputs.cache
+C:\Users\Dmitry\source\repos\Ex64\bin\Debug\Ex64.exe.config
+C:\Users\Dmitry\source\repos\Ex64\bin\Debug\Ex64.exe
+C:\Users\Dmitry\source\repos\Ex64\bin\Debug\Ex64.pdb
+C:\Users\Dmitry\source\repos\Ex64\obj\Debug\Ex64.exe
+C:\Users\Dmitry\source\repos\Ex64\obj\Debug\Ex64.pdb
