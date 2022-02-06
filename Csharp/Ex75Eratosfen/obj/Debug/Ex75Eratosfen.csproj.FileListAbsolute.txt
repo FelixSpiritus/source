@@ -1,0 +1,10 @@
+D:\Documents\Dropbox\source\Ex75Eratosfen\bin\Debug\Ex75Eratosfen.exe.config
+D:\Documents\Dropbox\source\Ex75Eratosfen\bin\Debug\Ex75Eratosfen.exe
+D:\Documents\Dropbox\source\Ex75Eratosfen\bin\Debug\Ex75Eratosfen.pdb
+D:\Documents\Dropbox\source\Ex75Eratosfen\obj\Debug\Ex75Eratosfen.csproj.AssemblyReference.cache
+D:\Documents\Dropbox\source\Ex75Eratosfen\obj\Debug\Ex75Eratosfen.Form1.resources
+D:\Documents\Dropbox\source\Ex75Eratosfen\obj\Debug\Ex75Eratosfen.Properties.Resources.resources
+D:\Documents\Dropbox\source\Ex75Eratosfen\obj\Debug\Ex75Eratosfen.csproj.GenerateResource.cache
+D:\Documents\Dropbox\source\Ex75Eratosfen\obj\Debug\Ex75Eratosfen.csproj.CoreCompileInputs.cache
+D:\Documents\Dropbox\source\Ex75Eratosfen\obj\Debug\Ex75Eratosfen.exe
+D:\Documents\Dropbox\source\Ex75Eratosfen\obj\Debug\Ex75Eratosfen.pdb

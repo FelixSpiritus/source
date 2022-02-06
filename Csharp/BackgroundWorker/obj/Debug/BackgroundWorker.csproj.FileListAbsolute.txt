@@ -1,0 +1,10 @@
+D:\Documents\Dropbox\source\BackgroundWorker\bin\Debug\BackgroundWorker.exe.config
+D:\Documents\Dropbox\source\BackgroundWorker\bin\Debug\BackgroundWorker.exe
+D:\Documents\Dropbox\source\BackgroundWorker\bin\Debug\BackgroundWorker.pdb
+D:\Documents\Dropbox\source\BackgroundWorker\obj\Debug\BackgroundWorker.csproj.AssemblyReference.cache
+D:\Documents\Dropbox\source\BackgroundWorker\obj\Debug\BackgroundWorker.Form1.resources
+D:\Documents\Dropbox\source\BackgroundWorker\obj\Debug\BackgroundWorker.Properties.Resources.resources
+D:\Documents\Dropbox\source\BackgroundWorker\obj\Debug\BackgroundWorker.csproj.GenerateResource.cache
+D:\Documents\Dropbox\source\BackgroundWorker\obj\Debug\BackgroundWorker.csproj.CoreCompileInputs.cache
+D:\Documents\Dropbox\source\BackgroundWorker\obj\Debug\BackgroundWorker.exe
+D:\Documents\Dropbox\source\BackgroundWorker\obj\Debug\BackgroundWorker.pdb

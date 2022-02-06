@@ -1,0 +1,9 @@
+D:\Documents\Dropbox\source\Balls\bin\Debug\Balls.exe.config
+D:\Documents\Dropbox\source\Balls\bin\Debug\Balls.exe
+D:\Documents\Dropbox\source\Balls\bin\Debug\Balls.pdb
+D:\Documents\Dropbox\source\Balls\obj\Debug\Balls.Form1.resources
+D:\Documents\Dropbox\source\Balls\obj\Debug\Balls.Properties.Resources.resources
+D:\Documents\Dropbox\source\Balls\obj\Debug\Balls.csproj.GenerateResource.cache
+D:\Documents\Dropbox\source\Balls\obj\Debug\Balls.csproj.CoreCompileInputs.cache
+D:\Documents\Dropbox\source\Balls\obj\Debug\Balls.exe
+D:\Documents\Dropbox\source\Balls\obj\Debug\Balls.pdb

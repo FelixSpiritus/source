@@ -1,0 +1,10 @@
+D:\Documents\Dropbox\source\WindowsFormsChart\bin\Debug\WindowsFormsChart.exe.config
+D:\Documents\Dropbox\source\WindowsFormsChart\bin\Debug\WindowsFormsChart.exe
+D:\Documents\Dropbox\source\WindowsFormsChart\bin\Debug\WindowsFormsChart.pdb
+D:\Documents\Dropbox\source\WindowsFormsChart\obj\Debug\WindowsFormsChart.csproj.AssemblyReference.cache
+D:\Documents\Dropbox\source\WindowsFormsChart\obj\Debug\WindowsFormsChart.Form1.resources
+D:\Documents\Dropbox\source\WindowsFormsChart\obj\Debug\WindowsFormsChart.Properties.Resources.resources
+D:\Documents\Dropbox\source\WindowsFormsChart\obj\Debug\WindowsFormsChart.csproj.GenerateResource.cache
+D:\Documents\Dropbox\source\WindowsFormsChart\obj\Debug\WindowsFormsChart.csproj.CoreCompileInputs.cache
+D:\Documents\Dropbox\source\WindowsFormsChart\obj\Debug\WindowsFormsChart.exe
+D:\Documents\Dropbox\source\WindowsFormsChart\obj\Debug\WindowsFormsChart.pdb

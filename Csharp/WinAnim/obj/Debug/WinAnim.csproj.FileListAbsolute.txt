@@ -1,0 +1,10 @@
+D:\Documents\Dropbox\source\WinAnim\obj\Debug\WinAnim.csproj.AssemblyReference.cache
+D:\Documents\Dropbox\source\WinAnim\obj\Debug\WinAnim.Form1.resources
+D:\Documents\Dropbox\source\WinAnim\obj\Debug\WinAnim.Properties.Resources.resources
+D:\Documents\Dropbox\source\WinAnim\obj\Debug\WinAnim.csproj.GenerateResource.cache
+D:\Documents\Dropbox\source\WinAnim\obj\Debug\WinAnim.csproj.CoreCompileInputs.cache
+D:\Documents\Dropbox\source\WinAnim\bin\Debug\WinAnim.exe.config
+D:\Documents\Dropbox\source\WinAnim\bin\Debug\WinAnim.exe
+D:\Documents\Dropbox\source\WinAnim\bin\Debug\WinAnim.pdb
+D:\Documents\Dropbox\source\WinAnim\obj\Debug\WinAnim.exe
+D:\Documents\Dropbox\source\WinAnim\obj\Debug\WinAnim.pdb

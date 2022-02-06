@@ -1,0 +1,10 @@
+D:\Documents\Dropbox\source\WinAsynchMethod\bin\Debug\WinAsynchMethod.exe.config
+D:\Documents\Dropbox\source\WinAsynchMethod\bin\Debug\WinAsynchMethod.exe
+D:\Documents\Dropbox\source\WinAsynchMethod\bin\Debug\WinAsynchMethod.pdb
+D:\Documents\Dropbox\source\WinAsynchMethod\obj\Debug\WinAsynchMethod.csproj.AssemblyReference.cache
+D:\Documents\Dropbox\source\WinAsynchMethod\obj\Debug\WinAsynchMethod.Form1.resources
+D:\Documents\Dropbox\source\WinAsynchMethod\obj\Debug\WinAsynchMethod.Properties.Resources.resources
+D:\Documents\Dropbox\source\WinAsynchMethod\obj\Debug\WinAsynchMethod.csproj.GenerateResource.cache
+D:\Documents\Dropbox\source\WinAsynchMethod\obj\Debug\WinAsynchMethod.csproj.CoreCompileInputs.cache
+D:\Documents\Dropbox\source\WinAsynchMethod\obj\Debug\WinAsynchMethod.exe
+D:\Documents\Dropbox\source\WinAsynchMethod\obj\Debug\WinAsynchMethod.pdb

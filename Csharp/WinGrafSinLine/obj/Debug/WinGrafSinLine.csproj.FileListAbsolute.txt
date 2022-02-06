@@ -1,0 +1,11 @@
+D:\Documents\Dropbox\source\WinGrafSinLine\bin\Debug\WinGrafSinLine.exe.config
+D:\Documents\Dropbox\source\WinGrafSinLine\bin\Debug\WinGrafSinLine.exe
+D:\Documents\Dropbox\source\WinGrafSinLine\bin\Debug\WinGrafSinLine.pdb
+D:\Documents\Dropbox\source\WinGrafSinLine\obj\Debug\WinGrafSinLine.csproj.AssemblyReference.cache
+D:\Documents\Dropbox\source\WinGrafSinLine\obj\Debug\WinGrafSinLine.Form1.resources
+D:\Documents\Dropbox\source\WinGrafSinLine\obj\Debug\WinGrafSinLine.Properties.Resources.resources
+D:\Documents\Dropbox\source\WinGrafSinLine\obj\Debug\WinGrafSinLine.csproj.GenerateResource.cache
+D:\Documents\Dropbox\source\WinGrafSinLine\obj\Debug\WinGrafSinLine.csproj.CoreCompileInputs.cache
+D:\Documents\Dropbox\source\WinGrafSinLine\obj\Debug\WinGrafSinLine.exe
+D:\Documents\Dropbox\source\WinGrafSinLine\obj\Debug\WinGrafSinLine.pdb
+D:\Documents\Dropbox\source\WinGrafSinLine\obj\Debug\WinGrafSinLine.edit.resources
