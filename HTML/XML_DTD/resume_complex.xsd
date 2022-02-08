@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="resume">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="HigherEducation"/>
+                <xs:element ref="SecondaryEducation"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="HigherEducation">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="candidate"/>
+            </xs:sequence>
+            <xs:attribute name="Education" use="required" type="xs:NCName"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="SecondaryEducation">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="candidate"/>
+            </xs:sequence>
+            <xs:attribute name="Education" use="required" type="xs:NCName"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="candidate">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Name"/>
+                <xs:element ref="LastName"/>
+                <xs:element ref="PatronymicName"/>
+                <xs:element ref="Age"/>
+                <xs:element ref="WorkPlace"/>
+                <xs:element ref="Post"/>
+                <xs:element ref="DateOfBirth"/>
+                <xs:element ref="Address"/>
+                <xs:element ref="Phone"/>
+                <xs:element ref="FamilyStatus"/>
+                <xs:element ref="DesiredSalary"/>
+            </xs:sequence>
+            <xs:attribute name="id" use="required" type="xs:NCName"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="Name" type="xs:NCName"/>
+    <xs:element name="LastName" type="xs:NCName"/>
+    <xs:element name="PatronymicName" type="xs:NCName"/>
+    <xs:element name="Age" type="xs:string"/>
+    <xs:element name="WorkPlace" type="xs:string"/>
+    <xs:element name="Post" type="xs:string"/>
+    <xs:element name="DateOfBirth" type="xs:NMTOKEN"/>
+    <xs:element name="Address" type="xs:string"/>
+    <xs:element name="Phone" type="xs:NMTOKEN"/>
+    <xs:element name="FamilyStatus" type="xs:string"/>
+    <xs:element name="DesiredSalary">
+        <xs:complexType mixed="true">
+            <xs:attribute name="currency" use="required" type="xs:NCName"/>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

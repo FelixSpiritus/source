@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<TimeTable>
+	<item id = "a">
+		<name>Астрономия</name>
+		<teacher>Ошемкова</teacher>
+		<begin>2022-01-10</begin>
+		<end>2022-02-10</end>
+		<address>СПб, ул. Ленина 3-5</address>
+		<lecturehall>468</lecturehall>
+	</item>
+	
+	<item id = "b">
+		<name>Математика</name>
+		<teacher>Петров</teacher>
+		<begin>2022-02-14</begin>
+		<end>2022-08-10</end>
+		<address>СПб, ул. Ленина 3-5</address>
+		<lecturehall>438</lecturehall>
+	</item>
+	
+	<item id = "c">
+		<name>Информатика</name>
+		<teacher>Сидоров</teacher>
+		<begin>2022-02-20</begin>
+		<end>2022-08-12</end>
+		<address>СПб, ул. Ленина 3-5</address>
+		<lecturehall>368</lecturehall>
+	</item>
+
+	
+
+</TimeTable>

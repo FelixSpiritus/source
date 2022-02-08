@@ -1,0 +1,8 @@
+<!ELEMENT TimeTable (item+)>
+<!ELEMENT item (name, teacher, begin, end, address, lecturehall)> 
+<!ELEMENT name (#PCDATA)> 
+<!ELEMENT teacher (#PCDATA)> 
+<!ELEMENT begin (#PCDATA)> 
+<!ELEMENT end (#PCDATA)> 
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT lecturehall (#PCDATA)>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="TimeTable">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="item"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="item">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="name"/>
+                <xs:element ref="teacher"/>
+                <xs:element ref="begin"/>
+                <xs:element ref="end"/>
+                <xs:element ref="address"/>
+                <xs:element ref="lecturehall"/>
+            </xs:sequence>
+            <xs:attribute name="id" use="required" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="name" type="xs:string"/>
+    <xs:element name="teacher" type="xs:string"/>
+    <xs:element name="begin" type="xs:date"/>
+    <xs:element name="end" type="xs:date"/>
+    <xs:element name="address" type="xs:string"/>
+    <xs:element name="lecturehall" type="xs:integer"/>
+</xs:schema>

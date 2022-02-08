@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<myns:TimeTable xmlns:myns = "http://www.itmo.ru/xml/lessons">
+	<myns:item id = "a">
+		<myns:name>Астрономия</myns:name>
+		<myns:teacher>Ошемкова</myns:teacher>
+		<myns:begin>2022-01-10</myns:begin>
+		<myns:end>2022-02-10</myns:end>
+		<myns:address>СПб, ул. Ленина 3-5</myns:address>
+		<myns:lecturehall>468</myns:lecturehall>
+	</myns:item>
+	
+	<myns:item id = "b">
+		<myns:name>Математика</myns:name>
+		<myns:teacher>Петров</myns:teacher>
+		<myns:begin>2022-02-14</myns:begin>
+		<myns:end>2022-08-10</myns:end>
+		<myns:address>СПб, ул. Ленина 3-5</myns:address>
+		<myns:lecturehall>438</myns:lecturehall>
+	</myns:item>
+	
+	<myns:item id = "c">
+		<myns:name>Информатика</myns:name>
+		<myns:teacher>Сидоров</myns:teacher>
+		<myns:begin>2022-02-20</myns:begin>
+		<myns:end>2022-08-12</myns:end>
+		<myns:address>СПб, ул. Ленина 3-5</myns:address>
+		<myns:lecturehall>368</myns:lecturehall>
+	</myns:item>
+
+	
+
+</myns:TimeTable>

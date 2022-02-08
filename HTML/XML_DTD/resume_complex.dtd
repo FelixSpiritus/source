@@ -1,0 +1,65 @@
+<?xml encoding="utf-8"?>
+
+<!ELEMENT resume (HigherEducation,SecondaryEducation)>
+<!ATTLIST resume
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT HigherEducation (candidate)+>
+<!ATTLIST HigherEducation
+    xmlns CDATA #FIXED ''
+    Education NMTOKEN #REQUIRED>
+
+<!ELEMENT SecondaryEducation (candidate)>
+<!ATTLIST SecondaryEducation
+    xmlns CDATA #FIXED ''
+    Education NMTOKEN #REQUIRED>
+
+<!ELEMENT candidate (Name,LastName,PatronymicName,Age,WorkPlace,Post,DateOfBirth,Address,Phone,FamilyStatus,DesiredSalary)>
+<!ATTLIST candidate
+    xmlns CDATA #FIXED ''
+    id NMTOKEN #REQUIRED>
+
+<!ELEMENT Name (#PCDATA)>
+<!ATTLIST Name
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT LastName (#PCDATA)>
+<!ATTLIST LastName
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT PatronymicName (#PCDATA)>
+<!ATTLIST PatronymicName
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT Age (#PCDATA)>
+<!ATTLIST Age
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT WorkPlace (#PCDATA)>
+<!ATTLIST WorkPlace
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT Post (#PCDATA)>
+<!ATTLIST Post
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT DateOfBirth (#PCDATA)>
+<!ATTLIST DateOfBirth
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT Address (#PCDATA)>
+<!ATTLIST Address
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT Phone (#PCDATA)>
+<!ATTLIST Phone
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT FamilyStatus (#PCDATA)>
+<!ATTLIST FamilyStatus
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT DesiredSalary (#PCDATA)>
+<!ATTLIST DesiredSalary
+    xmlns CDATA #FIXED ''
+    currency NMTOKEN #REQUIRED>
