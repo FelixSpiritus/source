@@ -1,0 +1,11 @@
+D:\Documents\Dropbox\source\NorthWindApp\NorthWindApp\obj\Debug\NorthWindApp.csproj.AssemblyReference.cache
+D:\Documents\Dropbox\source\NorthWindApp\NorthWindApp\obj\Debug\NorthWindApp.csproj.SuggestedBindingRedirects.cache
+D:\Documents\Dropbox\source\NorthWindApp\NorthWindApp\obj\Debug\NorthWindApp.Form1.resources
+D:\Documents\Dropbox\source\NorthWindApp\NorthWindApp\obj\Debug\NorthWindApp.Properties.Resources.resources
+D:\Documents\Dropbox\source\NorthWindApp\NorthWindApp\obj\Debug\NorthWindApp.csproj.GenerateResource.cache
+D:\Documents\Dropbox\source\NorthWindApp\NorthWindApp\obj\Debug\NorthWindApp.csproj.CoreCompileInputs.cache
+D:\Documents\Dropbox\source\NorthWindApp\NorthWindApp\bin\Debug\NorthWindApp.exe.config
+D:\Documents\Dropbox\source\NorthWindApp\NorthWindApp\bin\Debug\NorthWindApp.exe
+D:\Documents\Dropbox\source\NorthWindApp\NorthWindApp\bin\Debug\NorthWindApp.pdb
+D:\Documents\Dropbox\source\NorthWindApp\NorthWindApp\obj\Debug\NorthWindApp.exe
+D:\Documents\Dropbox\source\NorthWindApp\NorthWindApp\obj\Debug\NorthWindApp.pdb

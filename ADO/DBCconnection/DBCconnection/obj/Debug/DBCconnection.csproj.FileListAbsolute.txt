@@ -1,0 +1,11 @@
+D:\Documents\Dropbox\source\ADO\DBCconnection\DBCconnection\bin\Debug\DBCconnection.exe.config
+D:\Documents\Dropbox\source\ADO\DBCconnection\DBCconnection\bin\Debug\DBCconnection.exe
+D:\Documents\Dropbox\source\ADO\DBCconnection\DBCconnection\bin\Debug\DBCconnection.pdb
+D:\Documents\Dropbox\source\ADO\DBCconnection\DBCconnection\obj\Debug\DBCconnection.csproj.AssemblyReference.cache
+D:\Documents\Dropbox\source\ADO\DBCconnection\DBCconnection\obj\Debug\DBCconnection.csproj.SuggestedBindingRedirects.cache
+D:\Documents\Dropbox\source\ADO\DBCconnection\DBCconnection\obj\Debug\DBCconnection.Form1.resources
+D:\Documents\Dropbox\source\ADO\DBCconnection\DBCconnection\obj\Debug\DBCconnection.Properties.Resources.resources
+D:\Documents\Dropbox\source\ADO\DBCconnection\DBCconnection\obj\Debug\DBCconnection.csproj.GenerateResource.cache
+D:\Documents\Dropbox\source\ADO\DBCconnection\DBCconnection\obj\Debug\DBCconnection.csproj.CoreCompileInputs.cache
+D:\Documents\Dropbox\source\ADO\DBCconnection\DBCconnection\obj\Debug\DBCconnection.exe
+D:\Documents\Dropbox\source\ADO\DBCconnection\DBCconnection\obj\Debug\DBCconnection.pdb

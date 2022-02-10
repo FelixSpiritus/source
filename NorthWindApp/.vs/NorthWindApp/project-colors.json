@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "b372ad1c-d877-488b-80b3-bd24d6596188": {
+      "ProjectGuid": "b372ad1c-d877-488b-80b3-bd24d6596188",
+      "DisplayName": "NorthWindApp",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
