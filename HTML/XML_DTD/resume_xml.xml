@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    
     <xs:element name="resume">
         <xs:complexType>
             <xs:sequence>
@@ -7,39 +8,63 @@
             </xs:sequence>
         </xs:complexType>
     </xs:element>
+    
     <xs:element name="candidate">
         <xs:complexType>
             <xs:sequence>
-                <xs:element ref="Name"/>
-                <xs:element ref="LastName"/>
-                <xs:element ref="PatronymicName"/>
-                <xs:element ref="Age"/>
-                <xs:element ref="WorkPlace"/>
-                <xs:element ref="Post"/>
-                <xs:element ref="DateOfBirth"/>
-                <xs:element ref="Education"/>
-                <xs:element ref="Address"/>
-                <xs:element ref="Phone"/>
-                <xs:element ref="FamilyStatus"/>
-                <xs:element ref="DesiredSalary"/>
+                <xs:element name="Name" type="xs:string"/>
+                <xs:element name="LastName" type="xs:string"/>
+                <xs:element name="PatronymicName" type="xs:string"/>
+                <xs:element name="Age" type="AgeType"/>
+                <xs:element name="WorkPlace" type="xs:string"/>
+                <xs:element name="Post" type="xs:string"/>
+                <xs:element name="DateOfBirth">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:date">
+		                    <xs:minInclusive value = "1947-01-01"/>
+		                    <xs:maxInclusive value = "1992-01-01"/>
+		                </xs:restriction>
+		            </xs:simpleType>
+                </xs:element>
+                <xs:element name="Education">
+                    <xs:simpleType>
+                             <xs:restriction base="xs:string">
+                                 <xs:enumeration value="высшее"/>
+                                 <xs:enumeration value="среднее"/>
+                             </xs:restriction>
+                       </xs:simpleType>
+                </xs:element>
+                <xs:element name="Address" type="xs:string"/>
+                <xs:element name="Phone">
+                    <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                                <xs:pattern value="[0-9]{3}-[0-9]{2}-[0-9]{2}"/>
+                            </xs:restriction>
+                       </xs:simpleType>
+                </xs:element>
+                <xs:element name="FamilyStatus">
+                    <xs:simpleType>
+                         <xs:restriction base="xs:string">
+                             <xs:enumeration value="женат"/>
+                             <xs:enumeration value="не женат"/>
+                             <xs:enumeration value="замужем"/>
+                             <xs:enumeration value="не замужем"/>
+                          </xs:restriction>
+                   </xs:simpleType>
+                </xs:element>
+                <xs:element name="DesiredSalary">
+                    <xs:complexType mixed="true">
+                        <xs:attribute name="currency" use="required" type="xs:NCName"/>
+                    </xs:complexType>
+                </xs:element>  
             </xs:sequence>
-            <xs:attribute name="id" use="required" type="xs:NCName"/>
+            <xs:attribute name="id" use="required" type="xs:string"/>
         </xs:complexType>
     </xs:element>
-    <xs:element name="Name" type="xs:NCName"/>
-    <xs:element name="LastName" type="xs:NCName"/>
-    <xs:element name="PatronymicName" type="xs:NCName"/>
-    <xs:element name="Age" type="xs:string"/>
-    <xs:element name="WorkPlace" type="xs:string"/>
-    <xs:element name="Post" type="xs:string"/>
-    <xs:element name="DateOfBirth" type="xs:NMTOKEN"/>
-    <xs:element name="Education" type="xs:NCName"/>
-    <xs:element name="Address" type="xs:string"/>
-    <xs:element name="Phone" type="xs:NMTOKEN"/>
-    <xs:element name="FamilyStatus" type="xs:string"/>
-    <xs:element name="DesiredSalary">
-        <xs:complexType mixed="true">
-            <xs:attribute name="currency" use="required" type="xs:NCName"/>
-        </xs:complexType>
-    </xs:element>
+    	<xs:simpleType name = "AgeType">
+		    <xs:restriction base = "xs:integer">
+		            <xs:minInclusive value = "20"/>
+		            <xs:maxInclusive value = "65"/>
+		    </xs:restriction>
+		</xs:simpleType>
 </xs:schema>

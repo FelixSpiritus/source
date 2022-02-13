@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "9c13dc85-4442-4097-b0fd-61c7168d94a5": {
+      "ProjectGuid": "9c13dc85-4442-4097-b0fd-61c7168d94a5",
+      "DisplayName": "SQLiteOrdersConsole",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

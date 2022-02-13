@@ -1,4 +1,5 @@
 <?xml version = "1.0" encoding = "utf-8" ?>
+<!DOCTYPE TimeTable SYSTEM "file:///D:/Documents/Dropbox/source/HTML/XML_DTD/lessons_DTD.dtd">
 <TimeTable>
 	<item id = "a">
 		<name>Астрономия</name>

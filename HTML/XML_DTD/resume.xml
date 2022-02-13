@@ -1,14 +1,14 @@
 <?xml version = "1.0" encoding = "utf-8" ?>
-<resume>
+<resume xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///D:\Documents\Dropbox\source\HTML\XML_DTD/resume_xml.xml">
 	<candidate id = "a">
 		<Name>Анна</Name>
 		<LastName>Ошемкова</LastName>
 		<PatronymicName>Петровна</PatronymicName>
-		<Age>(самостоятельно напишите возраст на текущий момент)</Age>
+		<Age>35</Age>
 		<WorkPlace>ООО "Проект"</WorkPlace>
 		<Post>менеджер</Post>
-		<DateOfBirth>12.09.1980</DateOfBirth>
-		<Education>Высшее </Education>
+		<DateOfBirth>1980-09-12</DateOfBirth>
+		<Education>высшее</Education>
 		<Address>СПб, ул. Ленина 3-5</Address>
 		<Phone>123-45-67</Phone>
 		<FamilyStatus>замужем</FamilyStatus>
@@ -19,11 +19,11 @@
 		<Name>Иван</Name>
 		<LastName>Сидоренко</LastName>
 		<PatronymicName>Иванович</PatronymicName>
-		<Age>(самостоятельно напишите возраст на текущий момент)</Age>
+		<Age>28</Age>
 		<WorkPlace>ООО "РусьСвет"</WorkPlace>
 		<Post>экономист</Post>
-		<DateOfBirth>02.03.1968</DateOfBirth>
-		<Education>Высшее </Education>
+		<DateOfBirth>1968-12-13</DateOfBirth>
+		<Education>высшее</Education>
 		<Address>СПб, Серпуховская 13-9</Address>
 		<Phone>987-65-54</Phone>
 		<FamilyStatus>женат</FamilyStatus>
@@ -34,11 +34,11 @@
 		<Name>Ольга</Name>
 		<LastName>Гашекова</LastName>
 		<PatronymicName>Сергеевна</PatronymicName>
-		<Age>(самостоятельно напишите возраст на текущий момент)</Age>	
+		<Age>45</Age>	
 		<WorkPlace>ООО "Строй"</WorkPlace>
 		<Post>менеджер по продажам</Post>
-		<DateOfBirth>19.12.1976</DateOfBirth>
-		<Education>Среднее</Education>
+		<DateOfBirth>1976-12-19</DateOfBirth>
+		<Education>среднее</Education>
 		<Address>СПб, Дбуновская 12-4</Address>
 		<Phone>122-33-44</Phone>
 		<FamilyStatus>не замужем</FamilyStatus>

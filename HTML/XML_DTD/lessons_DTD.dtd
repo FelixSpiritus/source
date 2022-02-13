@@ -1,5 +1,6 @@
 <!ELEMENT TimeTable (item+)>
 <!ELEMENT item (name, teacher, begin, end, address, lecturehall)> 
+<!ATTLIST item id NMTOKEN #REQUIRED>
 <!ELEMENT name (#PCDATA)> 
 <!ELEMENT teacher (#PCDATA)> 
 <!ELEMENT begin (#PCDATA)> 
