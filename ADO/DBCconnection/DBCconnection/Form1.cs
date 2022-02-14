@@ -126,5 +126,63 @@ namespace DBCconnection
             label1.Text = number.ToString();
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (connection.State == ConnectionState.Closed)
+            {
+                MessageBox.Show("Сначала подключитесь к базе");
+                return;
+            }
+            OleDbCommand command = connection.CreateCommand();
+            command.CommandText = "SELECT ProductName FROM Products";
+            OleDbDataReader reader = command.ExecuteReader();
+            while (reader.Read())
+            {
+                listView1.Items.Add(reader["ProductName"].ToString());
+            }
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            //OleDbConnection connection = new OleDbConnection(testConnect);
+            //connection.Open();
+            if (connection.State == ConnectionState.Closed)
+            {
+                MessageBox.Show("Сначала подключитесь к базе");
+                return;
+            }
+            OleDbTransaction OleTran = connection.BeginTransaction();
+            OleDbCommand command = connection.CreateCommand();
+            command.Transaction = OleTran;
+            try
+            {
+                command.CommandText =
+              "INSERT INTO Products (ProductName) VALUES('Wrong size')";
+                command.ExecuteNonQuery();
+                command.CommandText =
+               "INSERT INTO Products (ProductName) VALUES('Wrong color')";
+                command.ExecuteNonQuery();
+
+                OleTran.Commit();
+                MessageBox.Show("Both records were written to database");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+                try
+                {
+                    OleTran.Rollback();
+                }
+                catch (Exception exRollback)
+                {
+                    MessageBox.Show(exRollback.Message);
+                }
+
+
+            }
+            //connection.Close();
+        }
     }
 }
