@@ -1,0 +1,11 @@
+D:\Documents\Dropbox\source\ADO\DataAdapterWizard\bin\Debug\DataAdapterWizard.exe.config
+D:\Documents\Dropbox\source\ADO\DataAdapterWizard\bin\Debug\DataAdapterWizard.exe
+D:\Documents\Dropbox\source\ADO\DataAdapterWizard\bin\Debug\DataAdapterWizard.pdb
+D:\Documents\Dropbox\source\ADO\DataAdapterWizard\obj\Debug\DataAdapterWizard.csproj.AssemblyReference.cache
+D:\Documents\Dropbox\source\ADO\DataAdapterWizard\obj\Debug\DataAdapterWizard.csproj.SuggestedBindingRedirects.cache
+D:\Documents\Dropbox\source\ADO\DataAdapterWizard\obj\Debug\DataAdapterWizard.Form1.resources
+D:\Documents\Dropbox\source\ADO\DataAdapterWizard\obj\Debug\DataAdapterWizard.Properties.Resources.resources
+D:\Documents\Dropbox\source\ADO\DataAdapterWizard\obj\Debug\DataAdapterWizard.csproj.GenerateResource.cache
+D:\Documents\Dropbox\source\ADO\DataAdapterWizard\obj\Debug\DataAdapterWizard.csproj.CoreCompileInputs.cache
+D:\Documents\Dropbox\source\ADO\DataAdapterWizard\obj\Debug\DataAdapterWizard.exe
+D:\Documents\Dropbox\source\ADO\DataAdapterWizard\obj\Debug\DataAdapterWizard.pdb

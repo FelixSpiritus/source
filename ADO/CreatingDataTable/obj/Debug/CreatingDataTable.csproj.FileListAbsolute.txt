@@ -1,0 +1,10 @@
+D:\Documents\Dropbox\source\ADO\CreatingDataTable\bin\Debug\CreatingDataTable.exe.config
+D:\Documents\Dropbox\source\ADO\CreatingDataTable\bin\Debug\CreatingDataTable.exe
+D:\Documents\Dropbox\source\ADO\CreatingDataTable\bin\Debug\CreatingDataTable.pdb
+D:\Documents\Dropbox\source\ADO\CreatingDataTable\obj\Debug\CreatingDataTable.csproj.SuggestedBindingRedirects.cache
+D:\Documents\Dropbox\source\ADO\CreatingDataTable\obj\Debug\CreatingDataTable.Form1.resources
+D:\Documents\Dropbox\source\ADO\CreatingDataTable\obj\Debug\CreatingDataTable.Properties.Resources.resources
+D:\Documents\Dropbox\source\ADO\CreatingDataTable\obj\Debug\CreatingDataTable.csproj.GenerateResource.cache
+D:\Documents\Dropbox\source\ADO\CreatingDataTable\obj\Debug\CreatingDataTable.csproj.CoreCompileInputs.cache
+D:\Documents\Dropbox\source\ADO\CreatingDataTable\obj\Debug\CreatingDataTable.exe
+D:\Documents\Dropbox\source\ADO\CreatingDataTable\obj\Debug\CreatingDataTable.pdb
