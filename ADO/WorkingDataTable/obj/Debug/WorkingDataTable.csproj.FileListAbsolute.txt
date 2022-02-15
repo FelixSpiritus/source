@@ -1,0 +1,11 @@
+D:\Documents\Dropbox\source\ADO\WorkingDataTable\obj\Debug\WorkingDataTable.csproj.AssemblyReference.cache
+D:\Documents\Dropbox\source\ADO\WorkingDataTable\obj\Debug\WorkingDataTable.csproj.SuggestedBindingRedirects.cache
+D:\Documents\Dropbox\source\ADO\WorkingDataTable\obj\Debug\WorkingDataTable.Form1.resources
+D:\Documents\Dropbox\source\ADO\WorkingDataTable\obj\Debug\WorkingDataTable.Properties.Resources.resources
+D:\Documents\Dropbox\source\ADO\WorkingDataTable\obj\Debug\WorkingDataTable.csproj.GenerateResource.cache
+D:\Documents\Dropbox\source\ADO\WorkingDataTable\obj\Debug\WorkingDataTable.csproj.CoreCompileInputs.cache
+D:\Documents\Dropbox\source\ADO\WorkingDataTable\bin\Debug\WorkingDataTable.exe.config
+D:\Documents\Dropbox\source\ADO\WorkingDataTable\bin\Debug\WorkingDataTable.exe
+D:\Documents\Dropbox\source\ADO\WorkingDataTable\bin\Debug\WorkingDataTable.pdb
+D:\Documents\Dropbox\source\ADO\WorkingDataTable\obj\Debug\WorkingDataTable.exe
+D:\Documents\Dropbox\source\ADO\WorkingDataTable\obj\Debug\WorkingDataTable.pdb
