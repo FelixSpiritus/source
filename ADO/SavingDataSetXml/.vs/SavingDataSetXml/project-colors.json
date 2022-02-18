@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "be52cd08-4d7e-452e-812b-045e0ba5cbd4": {
+      "ProjectGuid": "be52cd08-4d7e-452e-812b-045e0ba5cbd4",
+      "DisplayName": "SavingDataSetXml",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}

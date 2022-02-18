@@ -1,0 +1,10 @@
+D:\Documents\Dropbox\source\ADO\LoadDataSetXml\obj\Debug\LoadDataSetXml.csproj.SuggestedBindingRedirects.cache
+D:\Documents\Dropbox\source\ADO\LoadDataSetXml\obj\Debug\LoadDataSetXml.Form1.resources
+D:\Documents\Dropbox\source\ADO\LoadDataSetXml\obj\Debug\LoadDataSetXml.Properties.Resources.resources
+D:\Documents\Dropbox\source\ADO\LoadDataSetXml\obj\Debug\LoadDataSetXml.csproj.GenerateResource.cache
+D:\Documents\Dropbox\source\ADO\LoadDataSetXml\obj\Debug\LoadDataSetXml.csproj.CoreCompileInputs.cache
+D:\Documents\Dropbox\source\ADO\LoadDataSetXml\bin\Debug\LoadDataSetXml.exe.config
+D:\Documents\Dropbox\source\ADO\LoadDataSetXml\bin\Debug\LoadDataSetXml.exe
+D:\Documents\Dropbox\source\ADO\LoadDataSetXml\bin\Debug\LoadDataSetXml.pdb
+D:\Documents\Dropbox\source\ADO\LoadDataSetXml\obj\Debug\LoadDataSetXml.exe
+D:\Documents\Dropbox\source\ADO\LoadDataSetXml\obj\Debug\LoadDataSetXml.pdb

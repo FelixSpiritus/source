@@ -1,0 +1,11 @@
+D:\Documents\Dropbox\source\ADO\DataBindingComplex\bin\Debug\DataBindingComplex.exe.config
+D:\Documents\Dropbox\source\ADO\DataBindingComplex\bin\Debug\DataBindingComplex.exe
+D:\Documents\Dropbox\source\ADO\DataBindingComplex\bin\Debug\DataBindingComplex.pdb
+D:\Documents\Dropbox\source\ADO\DataBindingComplex\obj\Debug\DataBindingComplex.csproj.AssemblyReference.cache
+D:\Documents\Dropbox\source\ADO\DataBindingComplex\obj\Debug\DataBindingComplex.csproj.SuggestedBindingRedirects.cache
+D:\Documents\Dropbox\source\ADO\DataBindingComplex\obj\Debug\DataBindingComplex.Properties.Resources.resources
+D:\Documents\Dropbox\source\ADO\DataBindingComplex\obj\Debug\DataBindingComplex.csproj.GenerateResource.cache
+D:\Documents\Dropbox\source\ADO\DataBindingComplex\obj\Debug\DataBindingComplex.csproj.CoreCompileInputs.cache
+D:\Documents\Dropbox\source\ADO\DataBindingComplex\obj\Debug\DataBindingComplex.exe
+D:\Documents\Dropbox\source\ADO\DataBindingComplex\obj\Debug\DataBindingComplex.pdb
+D:\Documents\Dropbox\source\ADO\DataBindingComplex\obj\Debug\DataBindingComplex.Form1.resources

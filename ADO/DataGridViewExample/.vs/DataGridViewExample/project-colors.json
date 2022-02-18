@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "c924f8b7-d22b-44d8-b742-e5d729918cac": {
+      "ProjectGuid": "c924f8b7-d22b-44d8-b742-e5d729918cac",
+      "DisplayName": "DataGridViewExample",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

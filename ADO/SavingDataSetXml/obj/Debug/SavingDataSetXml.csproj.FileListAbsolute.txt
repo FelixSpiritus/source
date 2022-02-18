@@ -1,0 +1,11 @@
+D:\Documents\Dropbox\source\ADO\SavingDataSetXml\bin\Debug\SavingDataSetXml.exe.config
+D:\Documents\Dropbox\source\ADO\SavingDataSetXml\bin\Debug\SavingDataSetXml.exe
+D:\Documents\Dropbox\source\ADO\SavingDataSetXml\bin\Debug\SavingDataSetXml.pdb
+D:\Documents\Dropbox\source\ADO\SavingDataSetXml\obj\Debug\SavingDataSetXml.csproj.AssemblyReference.cache
+D:\Documents\Dropbox\source\ADO\SavingDataSetXml\obj\Debug\SavingDataSetXml.csproj.SuggestedBindingRedirects.cache
+D:\Documents\Dropbox\source\ADO\SavingDataSetXml\obj\Debug\SavingDataSetXml.Form1.resources
+D:\Documents\Dropbox\source\ADO\SavingDataSetXml\obj\Debug\SavingDataSetXml.Properties.Resources.resources
+D:\Documents\Dropbox\source\ADO\SavingDataSetXml\obj\Debug\SavingDataSetXml.csproj.GenerateResource.cache
+D:\Documents\Dropbox\source\ADO\SavingDataSetXml\obj\Debug\SavingDataSetXml.csproj.CoreCompileInputs.cache
+D:\Documents\Dropbox\source\ADO\SavingDataSetXml\obj\Debug\SavingDataSetXml.exe
+D:\Documents\Dropbox\source\ADO\SavingDataSetXml\obj\Debug\SavingDataSetXml.pdb
