@@ -1,0 +1,11 @@
+D:\Documents\Dropbox\source\ADO\LINQsql_m\bin\Debug\LINQsql_m.exe.config
+D:\Documents\Dropbox\source\ADO\LINQsql_m\bin\Debug\LINQsql_m.exe
+D:\Documents\Dropbox\source\ADO\LINQsql_m\bin\Debug\LINQsql_m.pdb
+D:\Documents\Dropbox\source\ADO\LINQsql_m\obj\Debug\LINQsql_m.csproj.AssemblyReference.cache
+D:\Documents\Dropbox\source\ADO\LINQsql_m\obj\Debug\LINQsql_m.csproj.SuggestedBindingRedirects.cache
+D:\Documents\Dropbox\source\ADO\LINQsql_m\obj\Debug\LINQsql_m.Form1.resources
+D:\Documents\Dropbox\source\ADO\LINQsql_m\obj\Debug\LINQsql_m.Properties.Resources.resources
+D:\Documents\Dropbox\source\ADO\LINQsql_m\obj\Debug\LINQsql_m.csproj.GenerateResource.cache
+D:\Documents\Dropbox\source\ADO\LINQsql_m\obj\Debug\LINQsql_m.csproj.CoreCompileInputs.cache
+D:\Documents\Dropbox\source\ADO\LINQsql_m\obj\Debug\LINQsql_m.exe
+D:\Documents\Dropbox\source\ADO\LINQsql_m\obj\Debug\LINQsql_m.pdb

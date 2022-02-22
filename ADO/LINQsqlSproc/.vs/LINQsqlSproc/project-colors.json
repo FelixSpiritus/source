@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "8a0290f6-8c9b-4166-a84f-69d09ae10efa": {
+      "ProjectGuid": "8a0290f6-8c9b-4166-a84f-69d09ae10efa",
+      "DisplayName": "LINQsqlSproc",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

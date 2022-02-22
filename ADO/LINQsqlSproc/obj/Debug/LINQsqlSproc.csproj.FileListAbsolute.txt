@@ -1,0 +1,11 @@
+D:\Documents\Dropbox\source\ADO\LINQsqlSproc\obj\Debug\LINQsqlSproc.csproj.AssemblyReference.cache
+D:\Documents\Dropbox\source\ADO\LINQsqlSproc\obj\Debug\LINQsqlSproc.csproj.SuggestedBindingRedirects.cache
+D:\Documents\Dropbox\source\ADO\LINQsqlSproc\obj\Debug\LINQsqlSproc.Properties.Resources.resources
+D:\Documents\Dropbox\source\ADO\LINQsqlSproc\obj\Debug\LINQsqlSproc.csproj.GenerateResource.cache
+D:\Documents\Dropbox\source\ADO\LINQsqlSproc\obj\Debug\LINQsqlSproc.csproj.CoreCompileInputs.cache
+D:\Documents\Dropbox\source\ADO\LINQsqlSproc\bin\Debug\LINQsqlSproc.exe.config
+D:\Documents\Dropbox\source\ADO\LINQsqlSproc\bin\Debug\LINQsqlSproc.exe
+D:\Documents\Dropbox\source\ADO\LINQsqlSproc\bin\Debug\LINQsqlSproc.pdb
+D:\Documents\Dropbox\source\ADO\LINQsqlSproc\obj\Debug\LINQsqlSproc.Form1.resources
+D:\Documents\Dropbox\source\ADO\LINQsqlSproc\obj\Debug\LINQsqlSproc.exe
+D:\Documents\Dropbox\source\ADO\LINQsqlSproc\obj\Debug\LINQsqlSproc.pdb

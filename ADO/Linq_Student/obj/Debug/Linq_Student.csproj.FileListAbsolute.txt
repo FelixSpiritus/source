@@ -1,0 +1,7 @@
+D:\Documents\Dropbox\source\ADO\Linq_Student\obj\Debug\Linq_Student.csproj.SuggestedBindingRedirects.cache
+D:\Documents\Dropbox\source\ADO\Linq_Student\obj\Debug\Linq_Student.csproj.CoreCompileInputs.cache
+D:\Documents\Dropbox\source\ADO\Linq_Student\bin\Debug\Linq_Student.exe.config
+D:\Documents\Dropbox\source\ADO\Linq_Student\bin\Debug\Linq_Student.exe
+D:\Documents\Dropbox\source\ADO\Linq_Student\bin\Debug\Linq_Student.pdb
+D:\Documents\Dropbox\source\ADO\Linq_Student\obj\Debug\Linq_Student.exe
+D:\Documents\Dropbox\source\ADO\Linq_Student\obj\Debug\Linq_Student.pdb
