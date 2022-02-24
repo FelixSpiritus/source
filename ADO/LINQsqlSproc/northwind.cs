@@ -174,14 +174,6 @@ public partial class Northwind : System.Data.Linq.DataContext
 		}
 	}
 	
-	public System.Data.Linq.Table<SalesPerson> SalesPersons
-	{
-		get
-		{
-			return this.GetTable<SalesPerson>();
-		}
-	}
-	
 	public System.Data.Linq.Table<Shipper> Shippers
 	{
 		get
@@ -234,13 +226,6 @@ public partial class Northwind : System.Data.Linq.DataContext
 		return ((ISingleResult<EmployeeSalesByCountryResult>)(result.ReturnValue));
 	}
 	
-	[global::System.Data.Linq.Mapping.FunctionAttribute(Name="dbo.fn_diagramobjects", IsComposable=true)]
-	[return: global::System.Data.Linq.Mapping.ParameterAttribute(DbType="Int")]
-	public System.Nullable<int> Fn_diagramobjects()
-	{
-		return ((System.Nullable<int>)(this.ExecuteMethodCall(this, ((MethodInfo)(MethodInfo.GetCurrentMethod()))).ReturnValue));
-	}
-	
 	[global::System.Data.Linq.Mapping.FunctionAttribute(Name="dbo.Sales by Year")]
 	public ISingleResult<SalesByYearResult> SalesByYear([global::System.Data.Linq.Mapping.ParameterAttribute(Name="Beginning_Date", DbType="DateTime")] System.Nullable<System.DateTime> beginning_Date, [global::System.Data.Linq.Mapping.ParameterAttribute(Name="Ending_Date", DbType="DateTime")] System.Nullable<System.DateTime> ending_Date)
 	{
@@ -253,52 +238,6 @@ public partial class Northwind : System.Data.Linq.DataContext
 	{
 		IExecuteResult result = this.ExecuteMethodCall(this, ((MethodInfo)(MethodInfo.GetCurrentMethod())), categoryName, ordYear);
 		return ((ISingleResult<SalesByCategoryResult>)(result.ReturnValue));
-	}
-	
-	[global::System.Data.Linq.Mapping.FunctionAttribute(Name="dbo.sp_alterdiagram")]
-	[return: global::System.Data.Linq.Mapping.ParameterAttribute(DbType="Int")]
-	public int Sp_alterdiagram([global::System.Data.Linq.Mapping.ParameterAttribute(DbType="NVarChar(128)")] string diagramname, [global::System.Data.Linq.Mapping.ParameterAttribute(DbType="Int")] System.Nullable<int> owner_id, [global::System.Data.Linq.Mapping.ParameterAttribute(DbType="Int")] System.Nullable<int> version, [global::System.Data.Linq.Mapping.ParameterAttribute(DbType="VarBinary(MAX)")] System.Data.Linq.Binary definition)
-	{
-		IExecuteResult result = this.ExecuteMethodCall(this, ((MethodInfo)(MethodInfo.GetCurrentMethod())), diagramname, owner_id, version, definition);
-		return ((int)(result.ReturnValue));
-	}
-	
-	[global::System.Data.Linq.Mapping.FunctionAttribute(Name="dbo.sp_creatediagram")]
-	[return: global::System.Data.Linq.Mapping.ParameterAttribute(DbType="Int")]
-	public int Sp_creatediagram([global::System.Data.Linq.Mapping.ParameterAttribute(DbType="NVarChar(128)")] string diagramname, [global::System.Data.Linq.Mapping.ParameterAttribute(DbType="Int")] System.Nullable<int> owner_id, [global::System.Data.Linq.Mapping.ParameterAttribute(DbType="Int")] System.Nullable<int> version, [global::System.Data.Linq.Mapping.ParameterAttribute(DbType="VarBinary(MAX)")] System.Data.Linq.Binary definition)
-	{
-		IExecuteResult result = this.ExecuteMethodCall(this, ((MethodInfo)(MethodInfo.GetCurrentMethod())), diagramname, owner_id, version, definition);
-		return ((int)(result.ReturnValue));
-	}
-	
-	[global::System.Data.Linq.Mapping.FunctionAttribute(Name="dbo.sp_dropdiagram")]
-	[return: global::System.Data.Linq.Mapping.ParameterAttribute(DbType="Int")]
-	public int Sp_dropdiagram([global::System.Data.Linq.Mapping.ParameterAttribute(DbType="NVarChar(128)")] string diagramname, [global::System.Data.Linq.Mapping.ParameterAttribute(DbType="Int")] System.Nullable<int> owner_id)
-	{
-		IExecuteResult result = this.ExecuteMethodCall(this, ((MethodInfo)(MethodInfo.GetCurrentMethod())), diagramname, owner_id);
-		return ((int)(result.ReturnValue));
-	}
-	
-	[global::System.Data.Linq.Mapping.FunctionAttribute(Name="dbo.sp_helpdiagramdefinition")]
-	public ISingleResult<Sp_helpdiagramdefinitionResult> Sp_helpdiagramdefinition([global::System.Data.Linq.Mapping.ParameterAttribute(DbType="NVarChar(128)")] string diagramname, [global::System.Data.Linq.Mapping.ParameterAttribute(DbType="Int")] System.Nullable<int> owner_id)
-	{
-		IExecuteResult result = this.ExecuteMethodCall(this, ((MethodInfo)(MethodInfo.GetCurrentMethod())), diagramname, owner_id);
-		return ((ISingleResult<Sp_helpdiagramdefinitionResult>)(result.ReturnValue));
-	}
-	
-	[global::System.Data.Linq.Mapping.FunctionAttribute(Name="dbo.sp_helpdiagrams")]
-	public ISingleResult<Sp_helpdiagramsResult> Sp_helpdiagrams([global::System.Data.Linq.Mapping.ParameterAttribute(DbType="NVarChar(128)")] string diagramname, [global::System.Data.Linq.Mapping.ParameterAttribute(DbType="Int")] System.Nullable<int> owner_id)
-	{
-		IExecuteResult result = this.ExecuteMethodCall(this, ((MethodInfo)(MethodInfo.GetCurrentMethod())), diagramname, owner_id);
-		return ((ISingleResult<Sp_helpdiagramsResult>)(result.ReturnValue));
-	}
-	
-	[global::System.Data.Linq.Mapping.FunctionAttribute(Name="dbo.sp_renamediagram")]
-	[return: global::System.Data.Linq.Mapping.ParameterAttribute(DbType="Int")]
-	public int Sp_renamediagram([global::System.Data.Linq.Mapping.ParameterAttribute(DbType="NVarChar(128)")] string diagramname, [global::System.Data.Linq.Mapping.ParameterAttribute(DbType="Int")] System.Nullable<int> owner_id, [global::System.Data.Linq.Mapping.ParameterAttribute(DbType="NVarChar(128)")] string new_diagramname)
-	{
-		IExecuteResult result = this.ExecuteMethodCall(this, ((MethodInfo)(MethodInfo.GetCurrentMethod())), diagramname, owner_id, new_diagramname);
-		return ((int)(result.ReturnValue));
 	}
 	
 	[global::System.Data.Linq.Mapping.FunctionAttribute(Name="dbo.Ten Most Expensive Products")]
@@ -3141,69 +3080,6 @@ public partial class Region : INotifyPropertyChanging, INotifyPropertyChanged
 	}
 }
 
-[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.SalesPersons")]
-public partial class SalesPerson
-{
-	
-	private int _SalesPersonID;
-	
-	private string _FirstName;
-	
-	private string _LastName;
-	
-	public SalesPerson()
-	{
-	}
-	
-	[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_SalesPersonID", AutoSync=AutoSync.Always, DbType="Int NOT NULL IDENTITY", IsDbGenerated=true)]
-	public int SalesPersonID
-	{
-		get
-		{
-			return this._SalesPersonID;
-		}
-		set
-		{
-			if ((this._SalesPersonID != value))
-			{
-				this._SalesPersonID = value;
-			}
-		}
-	}
-	
-	[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_FirstName", DbType="NVarChar(50)")]
-	public string FirstName
-	{
-		get
-		{
-			return this._FirstName;
-		}
-		set
-		{
-			if ((this._FirstName != value))
-			{
-				this._FirstName = value;
-			}
-		}
-	}
-	
-	[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_LastName", DbType="NVarChar(50)")]
-	public string LastName
-	{
-		get
-		{
-			return this._LastName;
-		}
-		set
-		{
-			if ((this._LastName != value))
-			{
-				this._LastName = value;
-			}
-		}
-	}
-}
-
 [global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.Shippers")]
 public partial class Shipper : INotifyPropertyChanging, INotifyPropertyChanged
 {
@@ -4332,148 +4208,6 @@ public partial class SalesByCategoryResult
 			if ((this._TotalPurchase != value))
 			{
 				this._TotalPurchase = value;
-			}
-		}
-	}
-}
-
-public partial class Sp_helpdiagramdefinitionResult
-{
-	
-	private System.Nullable<int> _Version;
-	
-	private System.Data.Linq.Binary _Definition;
-	
-	public Sp_helpdiagramdefinitionResult()
-	{
-	}
-	
-	[global::System.Data.Linq.Mapping.ColumnAttribute(Name="version", Storage="_Version", DbType="Int")]
-	public System.Nullable<int> Version
-	{
-		get
-		{
-			return this._Version;
-		}
-		set
-		{
-			if ((this._Version != value))
-			{
-				this._Version = value;
-			}
-		}
-	}
-	
-	[global::System.Data.Linq.Mapping.ColumnAttribute(Name="definition", Storage="_Definition", DbType="VarBinary(MAX)", CanBeNull=true)]
-	public System.Data.Linq.Binary Definition
-	{
-		get
-		{
-			return this._Definition;
-		}
-		set
-		{
-			if ((this._Definition != value))
-			{
-				this._Definition = value;
-			}
-		}
-	}
-}
-
-public partial class Sp_helpdiagramsResult
-{
-	
-	private string _Database;
-	
-	private string _Name;
-	
-	private System.Nullable<int> _ID;
-	
-	private string _Owner;
-	
-	private System.Nullable<int> _OwnerID;
-	
-	public Sp_helpdiagramsResult()
-	{
-	}
-	
-	[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Database", DbType="NVarChar(128)")]
-	public string Database
-	{
-		get
-		{
-			return this._Database;
-		}
-		set
-		{
-			if ((this._Database != value))
-			{
-				this._Database = value;
-			}
-		}
-	}
-	
-	[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Name", DbType="NVarChar(128)")]
-	public string Name
-	{
-		get
-		{
-			return this._Name;
-		}
-		set
-		{
-			if ((this._Name != value))
-			{
-				this._Name = value;
-			}
-		}
-	}
-	
-	[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_ID", DbType="Int")]
-	public System.Nullable<int> ID
-	{
-		get
-		{
-			return this._ID;
-		}
-		set
-		{
-			if ((this._ID != value))
-			{
-				this._ID = value;
-			}
-		}
-	}
-	
-	[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Owner", DbType="NVarChar(128)")]
-	public string Owner
-	{
-		get
-		{
-			return this._Owner;
-		}
-		set
-		{
-			if ((this._Owner != value))
-			{
-				this._Owner = value;
-			}
-		}
-	}
-	
-	[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_OwnerID", DbType="Int")]
-	public System.Nullable<int> OwnerID
-	{
-		get
-		{
-			return this._OwnerID;
-		}
-		set
-		{
-			if ((this._OwnerID != value))
-			{
-				this._OwnerID = value;
 			}
 		}
 	}

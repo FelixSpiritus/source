@@ -12,7 +12,8 @@ namespace LINQsqlSproc
 {
     public partial class Form1 : Form
     {
-        Northwind db = new Northwind(@"C:\Program Files\Microsoft SQL Server\MSSQL15.SQLEXPRESS\MSSQL\DATA\northwnd.mdf");
+        //Northwind db = new Northwind(@"D:\northwnd.mdf");
+        Northwind db = new Northwind("Data Source=PREC5560\\SQLEXPRESS;Initial Catalog=Northwind;Integrated Security=True");
         public Form1()
         {
             InitializeComponent();
@@ -29,6 +30,7 @@ namespace LINQsqlSproc
             }
             if (msg == "")
                 msg = "No results.";
+            MessageBox.Show(msg);
             param = "";
             textBox1.Text = "";
 

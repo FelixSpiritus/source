@@ -1,0 +1,12 @@
+D:\Documents\Dropbox\source\ADO\CodeFirst\bin\Debug\CodeFirst.dll.config
+D:\Documents\Dropbox\source\ADO\CodeFirst\bin\Debug\CodeFirst.dll
+D:\Documents\Dropbox\source\ADO\CodeFirst\bin\Debug\CodeFirst.pdb
+D:\Documents\Dropbox\source\ADO\CodeFirst\bin\Debug\EntityFramework.dll
+D:\Documents\Dropbox\source\ADO\CodeFirst\bin\Debug\EntityFramework.SqlServer.dll
+D:\Documents\Dropbox\source\ADO\CodeFirst\bin\Debug\EntityFramework.xml
+D:\Documents\Dropbox\source\ADO\CodeFirst\bin\Debug\EntityFramework.SqlServer.xml
+D:\Documents\Dropbox\source\ADO\CodeFirst\obj\Debug\CodeFirst.csproj.AssemblyReference.cache
+D:\Documents\Dropbox\source\ADO\CodeFirst\obj\Debug\CodeFirst.csproj.CoreCompileInputs.cache
+D:\Documents\Dropbox\source\ADO\CodeFirst\obj\Debug\CodeFirst.csproj.CopyComplete
+D:\Documents\Dropbox\source\ADO\CodeFirst\obj\Debug\CodeFirst.dll
+D:\Documents\Dropbox\source\ADO\CodeFirst\obj\Debug\CodeFirst.pdb
