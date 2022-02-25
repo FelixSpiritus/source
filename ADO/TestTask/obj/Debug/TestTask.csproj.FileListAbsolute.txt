@@ -1,0 +1,11 @@
+D:\Documents\Dropbox\source\ADO\TestTask\bin\Debug\TestTask.exe.config
+D:\Documents\Dropbox\source\ADO\TestTask\bin\Debug\TestTask.exe
+D:\Documents\Dropbox\source\ADO\TestTask\bin\Debug\TestTask.pdb
+D:\Documents\Dropbox\source\ADO\TestTask\obj\Debug\TestTask.csproj.AssemblyReference.cache
+D:\Documents\Dropbox\source\ADO\TestTask\obj\Debug\TestTask.csproj.SuggestedBindingRedirects.cache
+D:\Documents\Dropbox\source\ADO\TestTask\obj\Debug\TestTask.Form1.resources
+D:\Documents\Dropbox\source\ADO\TestTask\obj\Debug\TestTask.Properties.Resources.resources
+D:\Documents\Dropbox\source\ADO\TestTask\obj\Debug\TestTask.csproj.GenerateResource.cache
+D:\Documents\Dropbox\source\ADO\TestTask\obj\Debug\TestTask.csproj.CoreCompileInputs.cache
+D:\Documents\Dropbox\source\ADO\TestTask\obj\Debug\TestTask.exe
+D:\Documents\Dropbox\source\ADO\TestTask\obj\Debug\TestTask.pdb

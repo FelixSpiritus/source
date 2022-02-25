@@ -14,7 +14,8 @@ namespace CustomerManager
 {
     public partial class CustomerViewer : Form
     {
-        SampleContext context = new SampleContext();
+
+        SampleContext context;
         byte[] Ph;
         private void Output()
         {
@@ -28,12 +29,15 @@ namespace CustomerManager
         public CustomerViewer()
         {
             InitializeComponent();
+            context = new SampleContext();
+            Database.SetInitializer(new DropCreateDatabaseIfModelChanges<SampleContext>());
         }
 
         private void buttonAdd_Click(object sender, EventArgs e)
         {
             
-
+            
+            
             try
             {
                 
@@ -83,10 +87,10 @@ namespace CustomerManager
 
         private void CustomerViewer_Load(object sender, EventArgs e)
         {
-            context.Orders.Add(new Order { ProductName = "Аудио", Quantity = 12, PurchaseDate = DateTime.Parse("12.01.2016") });
-            context.Orders.Add(new Order { ProductName = "Видео", Quantity = 22, PurchaseDate = DateTime.Parse("10.01.2016") });
-            context.SaveChanges();
-            orderlistBox.DataSource = context.Orders.ToList();
+            //context.Orders.Add(new Order { ProductName = "Аудио", Quantity = 12, PurchaseDate = DateTime.Parse("12.01.2016") });
+            //context.Orders.Add(new Order { ProductName = "Видео", Quantity = 22, PurchaseDate = DateTime.Parse("10.01.2016") });
+            //context.SaveChanges();
+            //orderlistBox.DataSource = context.Orders.ToList();
 
         }
     }
