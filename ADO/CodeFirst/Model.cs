@@ -10,13 +10,25 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace CodeFirst
 {
+    //public class VipOrder : Order
+    //{
+    //    public string status { get; set; }
+    //}
+
     public class SampleContext : DbContext
     {
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Customer>()
+               .Property(c => c.LastName).IsRequired().HasMaxLength(30);
+        }
+
         public SampleContext() : base("MyShop")
         { }
 
         public DbSet<Customer> Customers { get; set; }
         public DbSet<Order> Orders { get; set; }
+        //public DbSet<VipOrder> VipOrders { get; set; }
     }
 
     public class Model
@@ -25,9 +37,12 @@ namespace CodeFirst
     }
     public class Customer
     {
+        public int CustomerId { get; set; }
         [Required]
         [MaxLength(30)]
-        public string Name { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+
 
         [MaxLength(100)]
         public string Email { get; set; }
@@ -41,7 +56,7 @@ namespace CodeFirst
 
         public override string ToString()
         {
-            string s = Name + ", электронный адрес: " + Email;
+            string s = FirstName + ", электронный адрес: " + Email;
             return s;
         }
         // Ссылка на заказы

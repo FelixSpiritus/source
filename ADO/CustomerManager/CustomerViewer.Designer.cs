@@ -48,8 +48,9 @@
             this.CustomerradioButton = new System.Windows.Forms.RadioButton();
             this.OrderradioButton = new System.Windows.Forms.RadioButton();
             this.textBoxCustomer = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
+            this.labelid = new System.Windows.Forms.Label();
             this.GridView = new System.Windows.Forms.DataGridView();
+            this.ViporderradioButton = new System.Windows.Forms.RadioButton();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.GridView)).BeginInit();
             this.SuspendLayout();
@@ -182,6 +183,7 @@
             this.buttonDel.TabIndex = 14;
             this.buttonDel.Text = "Удалить";
             this.buttonDel.UseVisualStyleBackColor = true;
+            this.buttonDel.Click += new System.EventHandler(this.buttonDel_Click);
             // 
             // buttonEdit
             // 
@@ -191,9 +193,11 @@
             this.buttonEdit.TabIndex = 15;
             this.buttonEdit.Text = "Редактировать";
             this.buttonEdit.UseVisualStyleBackColor = true;
+            this.buttonEdit.Click += new System.EventHandler(this.buttonEdit_Click);
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.ViporderradioButton);
             this.groupBox1.Controls.Add(this.CustomerradioButton);
             this.groupBox1.Controls.Add(this.OrderradioButton);
             this.groupBox1.Location = new System.Drawing.Point(437, 92);
@@ -217,7 +221,7 @@
             // OrderradioButton
             // 
             this.OrderradioButton.AutoSize = true;
-            this.OrderradioButton.Location = new System.Drawing.Point(181, 19);
+            this.OrderradioButton.Location = new System.Drawing.Point(266, 19);
             this.OrderradioButton.Name = "OrderradioButton";
             this.OrderradioButton.Size = new System.Drawing.Size(56, 17);
             this.OrderradioButton.TabIndex = 18;
@@ -232,14 +236,14 @@
             this.textBoxCustomer.Size = new System.Drawing.Size(320, 20);
             this.textBoxCustomer.TabIndex = 17;
             // 
-            // label6
+            // labelid
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(434, 155);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(16, 13);
-            this.label6.TabIndex = 18;
-            this.label6.Text = "Id";
+            this.labelid.AutoSize = true;
+            this.labelid.Location = new System.Drawing.Point(434, 155);
+            this.labelid.Name = "labelid";
+            this.labelid.Size = new System.Drawing.Size(16, 13);
+            this.labelid.TabIndex = 18;
+            this.labelid.Text = "Id";
             // 
             // GridView
             // 
@@ -249,6 +253,18 @@
             this.GridView.Name = "GridView";
             this.GridView.Size = new System.Drawing.Size(800, 264);
             this.GridView.TabIndex = 19;
+            this.GridView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.GridView_CellClick);
+            // 
+            // ViporderradioButton
+            // 
+            this.ViporderradioButton.AutoSize = true;
+            this.ViporderradioButton.Location = new System.Drawing.Point(153, 19);
+            this.ViporderradioButton.Name = "ViporderradioButton";
+            this.ViporderradioButton.Size = new System.Drawing.Size(40, 17);
+            this.ViporderradioButton.TabIndex = 19;
+            this.ViporderradioButton.TabStop = true;
+            this.ViporderradioButton.Text = "Vip";
+            this.ViporderradioButton.UseVisualStyleBackColor = true;
             // 
             // CustomerViewer
             // 
@@ -256,7 +272,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.GridView);
-            this.Controls.Add(this.label6);
+            this.Controls.Add(this.labelid);
             this.Controls.Add(this.textBoxCustomer);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.buttonEdit);
@@ -308,8 +324,9 @@
         private System.Windows.Forms.RadioButton CustomerradioButton;
         private System.Windows.Forms.RadioButton OrderradioButton;
         private System.Windows.Forms.TextBox textBoxCustomer;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label labelid;
         private System.Windows.Forms.DataGridView GridView;
+        private System.Windows.Forms.RadioButton ViporderradioButton;
     }
 }
 
