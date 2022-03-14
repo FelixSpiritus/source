@@ -1,0 +1,45 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="StudArch.Site" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Students archivements</title>
+    <link rel="stylesheet" type="text/css" href="Styles.css" />
+    
+        
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+           
+        </div>
+    <table class="auto-style1">
+        <tr>
+            <td colspan="2" class="auto-style3">&nbsp;
+                Students archivements
+            </td>
+        </tr>
+        <tr>
+            <td class="auto-style5">&nbsp;
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </td>
+        </tr>
+        <tr>
+            <td class="auto-style4">&nbsp;
+                      <%--Нижний колонтитул--%>
+                <div id="temo_footer">
+                    <ul class="footer_menu">
+                        <li><a href="Start.aspx">Main</a></li>
+                        <li><a href="StudList.aspx">Students List</a></li>
+                        <li><a href="Grade.aspx">Grade</a></li>
+                        <li><a href="About.aspx">Подробности</a></li>
+                    </ul>
+                </div>
+            </td>
+        </tr> 
+    </table>
+    </form>
+    </body>
+</html>

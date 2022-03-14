@@ -141,3 +141,4 @@ D:\Documents\Dropbox\source\ASP.MVC\WebMVCR1.LAB2\obj\Debug\WebMVCR1.csproj.Core
 D:\Documents\Dropbox\source\ASP.MVC\WebMVCR1.LAB2\obj\Debug\WebMVCR1.csproj.CopyComplete
 D:\Documents\Dropbox\source\ASP.MVC\WebMVCR1.LAB2\obj\Debug\WebMVCR1.dll
 D:\Documents\Dropbox\source\ASP.MVC\WebMVCR1.LAB2\obj\Debug\WebMVCR1.pdb
+D:\Documents\Dropbox\source\ASP.MVC\WebMVCR1.LAB2\obj\Debug\WebMVCR1.csproj.AssemblyReference.cache
