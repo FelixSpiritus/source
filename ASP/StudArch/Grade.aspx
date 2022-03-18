@@ -43,5 +43,5 @@
     </asp:DropDownList>
     <asp:DropDownList ID="DropDownList3" runat="server" DataSourceID="SqlDataSource2" DataTextField="Grade" DataValueField="Grade" Height="30px" Width="60px">
     </asp:DropDownList>
-    <asp:Button ID="Save" runat="server" Height="30px" OnClick="Save_Click" Text="Save" Width="60px" />
+    <asp:Button ID="Save" runat="server" Height="30px" OnClick="Save_Click" Text="Save" Width="60px" Enabled="False" />
     </asp:Content>

@@ -80,11 +80,12 @@
   <ItemGroup>
     <Content Include="Global.asax" />
     <Content Include="Grade.aspx" />
+    <Content Include="RatingH.aspx" />
+    <Content Include="Rating.aspx" />
     <Content Include="Start.aspx" />
     <Content Include="StudList.aspx" />
     <Content Include="Styles.css" />
     <Content Include="Web.config" />
-    <Content Include="ViewRes.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
@@ -100,6 +101,20 @@
     <Compile Include="Grades.cs" />
     <Compile Include="NameResults.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RatingH.aspx.cs">
+      <DependentUpon>RatingH.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RatingH.aspx.designer.cs">
+      <DependentUpon>RatingH.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Rating.aspx.cs">
+      <DependentUpon>Rating.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Rating.aspx.designer.cs">
+      <DependentUpon>Rating.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -126,13 +141,6 @@
     <Compile Include="StudResults.cs" />
     <Compile Include="Subjects.cs" />
     <Compile Include="sysdiagrams.cs" />
-    <Compile Include="ViewRes.aspx.cs">
-      <DependentUpon>ViewRes.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="ViewRes.aspx.designer.cs">
-      <DependentUpon>ViewRes.aspx</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

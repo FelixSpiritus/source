@@ -8,7 +8,11 @@ namespace StudArch
 
     public partial class StudResults
     {
-        public StudResults(long Studid, string Subj, string sGrade)
+        public StudResults() { 
+
+        }
+
+    public StudResults(long Studid, string Subj, string sGrade)
         {
             Stud_id = Studid;
             Subject = Subj;

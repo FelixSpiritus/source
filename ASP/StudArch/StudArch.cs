@@ -7,8 +7,7 @@ namespace StudArch
 {
     public partial class StudArch : DbContext
     {
-        public StudArch()
-            : base("name=StudArch")
+        public StudArch(): base("name=StudArch")
         {
         }
 
@@ -18,6 +17,7 @@ namespace StudArch
         public virtual DbSet<Subjects> Subjects { get; set; }
         public virtual DbSet<sysdiagrams> sysdiagrams { get; set; }
         public virtual DbSet<NameResults> NameResults { get; set; }
+        //public virtual DbSet<Fivebest> Fivebest { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

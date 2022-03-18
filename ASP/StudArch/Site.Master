@@ -34,7 +34,7 @@
                         <li><a href="Start.aspx">Main</a></li>
                         <li><a href="StudList.aspx">Students List</a></li>
                         <li><a href="Grade.aspx">Grade</a></li>
-                        <li><a href="About.aspx">Подробности</a></li>
+                        <li><a href="Rating.aspx">Rating</a></li>
                     </ul>
                 </div>
             </td>

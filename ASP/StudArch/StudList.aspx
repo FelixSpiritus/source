@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="StudList.aspx.cs" Inherits="StudArch.StudList" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="StudList.aspx.cs" Inherits="StudArch.StudList" UnobtrusiveValidationMode="None" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" CellPadding="4" DataKeyNames="id" DataSourceID="SqlDataSource1" ForeColor="#333333" GridLines="None" AllowSorting="True" ShowFooter="True">
     <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
@@ -12,7 +12,7 @@
                 <asp:Button ID="AddStudent" runat="server" CommandName="Insert" OnClick="AddStudent_Click" Text="Add Student" Width="90px" />
             </FooterTemplate>
             <ItemTemplate>
-                <asp:LinkButton ID="LinkButton1" runat="server" CausesValidation="False" CommandName="Edit" Text="Edit"></asp:LinkButton>
+                <%--<asp:LinkButton ID="LinkButton1" runat="server" CausesValidation="False" CommandName="Edit" Text="Edit"></asp:LinkButton>--%>
                 &nbsp;<%--<asp:LinkButton ID="LinkButton2" runat="server" CausesValidation="False" CommandName="Delete" Text="Delete"></asp:LinkButton>--%>
             </ItemTemplate>
         </asp:TemplateField>
@@ -30,6 +30,13 @@
             </EditItemTemplate>
             <FooterTemplate>
                 <asp:TextBox ID="Name" runat="server"></asp:TextBox>
+                <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server"
+                    ErrorMessage="Invalid Input"
+                    ForeColor="Yellow" ControlToValidate="Name"
+                    ValidationExpression="[a-zA-Z''-'\s]{1,30}">Input correct Name
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </asp:RegularExpressionValidator>
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="Name" ErrorMessage="Name required" ForeColor="Red">The field cannot be empty</asp:RequiredFieldValidator>
             </FooterTemplate>
             <ItemTemplate>
                 <asp:Label ID="Label2" runat="server" Text='<%# Bind("Name") %>'></asp:Label>
@@ -41,6 +48,14 @@
             </EditItemTemplate>
             <FooterTemplate>
                 <asp:TextBox ID="Patronomic" runat="server"></asp:TextBox>
+                <asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="server"
+                    ControlToValidate="Patronomic"
+                    ErrorMessage="Invalid Input"
+                    ForeColor="Yellow"
+                    ValidationExpression="[a-zA-Z''-'\s]{1,30}">Input correct Patronomic
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </asp:RegularExpressionValidator>
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="Patronomic" ErrorMessage="Patronomic required" ForeColor="Red">The field cannot be empty</asp:RequiredFieldValidator>
             </FooterTemplate>
             <ItemTemplate>
                 <asp:Label ID="Label3" runat="server" Text='<%# Bind("Patronomic") %>'></asp:Label>
@@ -52,6 +67,15 @@
             </EditItemTemplate>
             <FooterTemplate>
                 <asp:TextBox ID="Surname" runat="server"></asp:TextBox>
+                <asp:RegularExpressionValidator ID="RegularExpressionValidator3" runat="server"
+                    ErrorMessage="RegularExpressionValidator"
+                    ControlToValidate="Surname"
+                    ForeColor="Yellow" 
+                    ValidationExpression="[a-zA-Z''-'\s]{1,30}">Input correct Surname 
+                
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                </asp:RegularExpressionValidator>
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="Surname" ErrorMessage="Surname required" ForeColor="Red">The field cannot be empty</asp:RequiredFieldValidator>
             </FooterTemplate>
             <ItemTemplate>
                 <asp:Label ID="Label4" runat="server" Text='<%# Bind("Surname") %>'></asp:Label>

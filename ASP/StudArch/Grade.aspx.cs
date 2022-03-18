@@ -37,6 +37,7 @@ namespace StudArch
 
         protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)
         {
+            Save.Enabled = true;
             TextBox1.Text = GridView1.SelectedRow.Cells[1].Text +' '+ GridView1.SelectedRow.Cells[2].Text +' '+ GridView1.SelectedRow.Cells[3].Text + ' ' + GridView1.SelectedRow.Cells[4].Text;
         }
     }

@@ -11,7 +11,14 @@ namespace StudArch
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-           
+            if (IsPostBack)
+            {
+
+                Page.Validate();
+                if (!Page.IsValid) return;
+
+            }
+
         }
 
         //protected void Students_RowCommand(object sender, GridViewCommandEventArgs e)
@@ -27,7 +34,7 @@ namespace StudArch
 
         protected void AddStudent_Click(object sender, EventArgs e)
         {
-            
+
             //var tmp = ((TextBox)GridView1.FooterRow.FindControl("Name")).Text;
 
             Students Student = new Students(((TextBox)GridView1.FooterRow.FindControl("Name")).Text, ((TextBox)GridView1.FooterRow.FindControl("Patronomic")).Text, ((TextBox)GridView1.FooterRow.FindControl("Surname")).Text);
@@ -44,9 +51,7 @@ namespace StudArch
             GridView1.DataBind();
         }
 
-        
-
-        
+      
     }
 
         
