@@ -1,0 +1,53 @@
+﻿@{ ViewBag.Title = "StudentsGrades"; }
+        <h3>Students archivements</h3>
+        <div class="scroll-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>
+                            <p>Student ID</p>
+                        </th>
+                        <th>
+                            <p>Student Name</p>
+                        </th>
+                        <th>
+                            <p>Student Surname</p>
+                        </th>
+                        <th>
+                            <p>Subject Title</p>
+                        </th>
+                        <th>
+                            <p>Subject Grade</p>
+                        </th>
+                    </tr>
+                </thead>
+            </table>
+            <div class="scroll-table-body">
+                <table>
+                    <tbody>
+                        @foreach (var n in ViewBag.NameResults)
+                        {
+                            <tr>
+                                <td>
+                                    <p>@n.Stud_id</p>
+                                </td>
+                                <td>
+                                    <p>@n.Name</p>
+                                </td>
+                                <td>
+                                    <p>@n.Surname</p>
+                                </td>
+                                <td>
+                                    <p>@n.Subject</p>
+                                </td>
+                                <td>
+                                    <p>@n.Grade</p>
+                                </td>
+                            </tr>
+                        }
+                    <tbody>
+                </table>
+            </div>
+        </div>
+        <p><a class="btn btn-default" href="/Home/CreateStudent">Add student to database &raquo;</a></p>
+    

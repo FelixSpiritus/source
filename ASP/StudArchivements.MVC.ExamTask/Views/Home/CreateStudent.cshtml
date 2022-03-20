@@ -1,0 +1,99 @@
+﻿@model StudArchivements.MVC.ExamTask.Models.Students
+@{
+    ViewBag.Title = "CreateStudent";
+}
+
+<h2>Students</h2>
+
+<h3>Students list</h3>
+<div class="scroll-table">
+    <table>
+        <thead>
+            <tr>
+                <th>
+                    <p>Student ID</p>
+                </th>
+                <th>
+                    <p>Student Name</p>
+                </th>
+                <th>
+                    <p>Student Patronomic</p>
+                </th>
+                <th>
+                    <p>Student Surname</p>
+                </th>
+                <th><p></p></th>
+            </tr>
+        </thead>
+    </table>
+    <div class="scroll-table-body">
+        <table>
+            <tbody>
+                @foreach (var s in ViewBag.Students)
+                {
+                <tr>
+                    <td>
+                        <p>@s.id</p>
+                    </td>
+                    <td>
+                        <p>@s.Name</p>
+                    </td>
+                    <td>
+                        <p>@s.Patronomic </p>
+                    </td>
+                    <td>
+                        <p>@s.Surname </p>
+                    </td>
+                    <td>
+                        <p>@Html.ActionLink("Edit", "Edit", new { id = s.id }) | @Html.ActionLink("Rate", "Rate", new { id = s.id }) | @Html.ActionLink("Details", "OneStudentGrades", new { id = s.id })</p>
+                    </td>
+                </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+    <h3>Add new student</h3>
+    <form method="post" action="">
+        @using (Html.BeginForm())
+        {
+            <table class="table">
+                <tr>
+                    <td>
+                        <p>Enter name </p>
+                    </td>
+                    <td>
+                        @Html.TextBoxFor(x => x.Name)
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Enter patronomic </p>
+                    </td>
+                    <td>
+                        @Html.TextBoxFor(x => x.Patronomic)
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Enter surname </p>
+                    </td>
+                    <td>
+                        @Html.TextBoxFor(x => x.Surname)
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="Add" />
+
+                    </td>
+                    <td><p>@ViewBag.Message</p></td>
+                  
+                </tr>
+            </table>
+        }
+        @Html.ValidationSummary()
+
+
+    </form>

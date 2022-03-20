@@ -1,0 +1,65 @@
+﻿
+@{
+    ViewBag.Title = "Fivebest";
+}
+
+<h2>Five bests students</h2>
+
+<div class="scroll-table">
+    <table>
+        <thead>
+            <tr>
+                <th>
+                    <p>Student ID</p>
+                </th>
+                <th>
+                    <p>Student Name</p>
+                </th>
+                <th>
+                    <p>Student Patronomic</p>
+                </th>
+                <th>
+                    <p>Student Surname</p>
+                </th>
+                <th>
+                    <p>Subject Grade</p>
+                </th>
+                <th>
+                    <p></p>
+                </th>
+            </tr>
+        </thead>
+    </table>
+    <div class="scroll-table-body">
+        <table>
+            <tbody>
+                @foreach (var n in ViewBag.Fivebest)
+                {
+                    <tr>
+                        <td>
+                            <p>@n.Stud_id</p>
+                        </td>
+                        <td>
+                            <p>@n.Name</p>
+                        </td>
+                        <td>
+                            <p>@n.Patronomic</p>
+                        </td>
+                        <td>
+                            <p>@n.Surname</p>
+                        </td>
+                        <td>
+                            <p>@n.AVER</p>
+                        </td>
+                        <td>
+                            <p>@Html.ActionLink("Details", "OneStudentGrades", new { id = n.Stud_id })</p>
+                        </td>
+                    </tr>
+                }
+            <tbody>
+        </table>
+    </div>
+</div>
+<div>
+    @Html.ActionLink("Students", "CreateStudent") | @Html.ActionLink("Students achivements", "Index")
+</div>

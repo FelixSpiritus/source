@@ -1,0 +1,79 @@
+﻿@model StudArchivements.MVC.ExamTask.Models.Students
+@{
+    ViewBag.Title = "Rate";
+}
+
+<h2>Rate student</h2>
+
+<div class="form-horizontal">
+    <hr />
+    <div class="form-group">
+        @Html.LabelFor(model => model.Name, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.DisplayFor(model => model.Name)
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.Patronomic, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.DisplayFor(model => model.Patronomic)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Surname, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.DisplayFor(model => model.Surname)
+        </div>
+    </div>
+</div>
+
+
+
+
+<h3>Select subject and grade</h3>
+<form method="post" action="">
+   
+    <table class="table">
+
+        <tr>
+            <td>
+                <p>Select subject :</p>
+            </td>
+            <td>
+                <select name="Subject">
+                    @foreach (var sbj in ViewBag.Subjects)
+                    {
+                        <option>@sbj.Subject</option>
+                        }
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>Select grade :</p>
+            </td>
+            <td>
+                <select name="Grade">
+                    @foreach (var gr in ViewBag.Grades)
+                    {
+                        <option>@gr.Grade</option>
+                    }
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="submit" value="Save" />
+
+            </td>
+            <td><p>@ViewBag.Message</p></td>
+            <td></td>
+        </tr>
+    </table>
+  
+
+</form>
+<div>
+    @Html.ActionLink("Students", "CreateStudent") | @Html.ActionLink("Students achivements", "Index")
+</div>
