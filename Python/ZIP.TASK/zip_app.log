@@ -1,0 +1,96 @@
+22-04-03 17:57:46: main - INFO - Received command loc
+22-04-03 17:58:07: main - INFO - Received command end
+22-04-03 18:13:16: main - INFO - Received command loc
+22-04-03 18:13:41: main - INFO - Received command zip
+22-04-03 18:15:26: main - INFO - Received command END
+22-04-03 18:15:56: main - INFO - Received command LOC
+22-04-03 18:16:49: main - INFO - Received command loc
+22-04-03 18:17:05: main - INFO - Received command zip
+22-04-03 18:51:51: main - INFO - Received command zip
+22-04-03 18:52:35: main - INFO - Received command zip
+22-04-03 18:52:45: main - INFO - Received command loc
+22-04-03 18:59:34: main - INFO - Received command loc
+22-04-03 18:59:58: main - INFO - Received command zip
+22-04-03 19:07:53: main - INFO - Received command dist
+22-04-03 19:12:32: main - INFO - Received command dist
+22-04-03 19:12:45: main - INFO - Received the first ZIP 127018
+22-04-03 19:13:12: main - INFO - Received the second ZIP 125032
+22-04-03 19:13:25: main - INFO - Received command end
+22-04-03 19:14:00: main - INFO - Received command loc
+22-04-03 19:14:39: main - INFO - Received command zip
+22-04-03 19:15:04: main - INFO - Received command end
+22-04-03 19:15:22: main - INFO - Received command loc
+22-04-03 19:15:40: main - INFO - Received command zip
+22-04-03 19:17:35: main - INFO - Received command loc
+22-04-03 19:17:51: main - INFO - Received command zip
+22-04-03 19:21:45: main - INFO - Received command zip
+22-04-03 19:21:53: main - INFO - Received command loc
+22-04-03 20:54:37: main - INFO - Received command loc
+22-04-03 20:55:28: main - INFO - Received command zip
+22-04-03 20:56:38: main - INFO - Received command zip
+22-04-03 20:57:59: main - INFO - Received command loc
+22-04-03 20:58:09: main - INFO - Received command zip
+22-04-03 20:59:20: main - INFO - Received command loc
+22-04-03 20:59:30: main - INFO - Received command zip
+22-04-03 21:00:23: main - INFO - Received command dist
+22-04-03 21:00:33: main - INFO - Received the first ZIP 117041
+22-04-03 21:00:43: main - INFO - Received the second ZIP 125032
+22-04-03 21:15:42: main - INFO - Received command loc
+22-04-03 21:15:49: main - INFO - Received command zip
+22-04-03 21:21:29: main - INFO - Received command lco
+22-04-03 21:21:33: main - INFO - Received command loc
+22-04-03 21:21:55: main - INFO - Received command zip
+22-04-03 21:22:58: main - INFO - Received command zip
+22-04-03 21:25:38: main - INFO - Received command zip
+22-04-03 21:26:11: main - INFO - Received command zip
+22-04-03 21:29:26: main - INFO - Received command zip
+22-04-03 21:29:35: main - INFO - Received command zip
+22-04-03 21:30:51: main - INFO - Received command aip
+22-04-03 21:31:01: main - INFO - Received command Центральный Административный Округ
+22-04-03 21:31:06: main - INFO - Received command zip
+22-04-03 21:34:30: main - INFO - Received command zip
+22-04-03 21:35:09: main - INFO - Received command end
+22-04-03 21:39:06: main - INFO - Received command ек
+22-04-03 21:39:14: main - INFO - Received command end
+22-04-03 21:41:19: main - INFO - Received command loc
+22-04-03 21:41:28: main - INFO - Received command end
+22-04-03 21:41:38: main - INFO - Received command loc
+22-04-03 21:49:40: main - INFO - Received command loc
+22-04-03 21:50:02: main - INFO - Received command 103265
+22-04-03 21:50:12: main - INFO - Received command loc
+22-04-03 21:50:35: main - INFO - Received command zip
+22-04-03 21:51:04: main - INFO - Received command dist
+22-04-03 21:51:15: main - INFO - Received the first ZIP 127381
+22-04-03 21:51:32: main - INFO - Received the second ZIP 127381
+22-04-03 21:51:38: main - INFO - Received command end
+22-04-03 21:54:01: main - INFO - Received command 127381
+22-04-03 21:54:06: main - INFO - Received command loc
+22-04-03 21:55:56: main - INFO - Received command loc
+22-04-03 22:00:04: main - INFO - Received command dist
+22-04-03 22:00:12: main - INFO - Received the first ZIP 127381
+22-04-03 22:00:36: main - INFO - Received the second ZIP 103265
+22-04-03 22:00:50: main - INFO - Received command dist
+22-04-03 22:00:55: main - INFO - Received the first ZIP 127381
+22-04-03 22:01:00: main - INFO - Received the second ZIP 127381
+22-04-03 22:01:06: main - INFO - Received command dist
+22-04-03 22:01:08: main - INFO - Received the first ZIP 3456
+22-04-03 22:01:10: main - INFO - Received the second ZIP 3456
+22-04-03 22:02:01: main - INFO - Received command dist
+22-04-03 22:02:03: main - INFO - Received the first ZIP f
+22-04-03 22:02:04: main - INFO - Received the second ZIP 4
+22-04-03 22:02:43: main - INFO - Received command dist
+22-04-03 22:02:46: main - INFO - Received the first ZIP 99950
+22-04-03 22:02:47: main - INFO - Received the second ZIP 99950
+22-04-03 22:02:54: main - INFO - Received command loc
+22-04-03 22:03:03: main - INFO - Received command zip
+22-04-03 22:04:39: main - INFO - Received command loc
+22-04-03 22:06:34: main - INFO - Received command 127381
+22-04-03 22:06:39: main - INFO - Received command loc
+22-04-03 22:07:20: main - INFO - Received command end
+22-04-03 22:07:39: main - INFO - Received command 99950
+22-04-03 22:07:44: main - INFO - Received command loc
+22-04-03 22:08:03: main - INFO - Received command end
+22-04-03 22:32:14: main - INFO - Received command loc
+22-04-03 22:32:30: main - INFO - Received command end
+22-04-03 22:32:42: main - INFO - Received command loc
+22-04-03 22:32:51: main - INFO - Received command end
