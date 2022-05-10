@@ -1,0 +1,1 @@
+SELECT e1.LAST_NAME AS "Emloyee", e1.EMPLOYEE_ID AS "Emp#", e2.LAST_NAME AS "Manager", e2.employee_id AS "Mgr#" FROM EMPLOYEES e1 JOIN EMPLOYEES e2 ON e1.manager_id=e2.employee_id
