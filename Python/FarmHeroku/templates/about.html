@@ -1,0 +1,86 @@
+{% extends 'master.html' %}
+
+{% block title %}
+Страница пронас
+{% endblock %}
+
+{% block body %}
+
+<div class="container">
+      <div class="table-responsive">
+        <table class="table table-hover">
+         <tbody>
+
+                <tr>
+                    <td>MarketName :</td><td>{{finfo["MarketName"]}}</td>
+                    <td>
+						<b>{{finfo["AVR"]}}</b>
+						<div class="rating-mini">
+							<span class="active"></span>
+	                        <span class="active"></span>
+                            <span class="active"></span>
+	                        <span></span>
+	                        <span></span>
+                        </div>
+                    </td>
+                </tr>
+				<tr><td>WebSite:</td><td><a href="{{finfo['WebSite']}}" target="_blank">{{finfo["WebSite"]}}</a></td><td></td></tr>
+		 		<tr><td>Street:</td><td>{{finfo["Street"]}}</td><td></td></tr>
+		 		<tr><td>City:</td><td>{{finfo["City"]}}</td><td></td></tr>
+		 		<tr><td>County:</td><td>{{finfo["Country"]}}</td><td></td></tr>
+		 		<tr><td>State:</td><td>{{finfo["State"]}}</td><td></td></tr>
+		 		<tr><td>Zip:</td><td>{{finfo["Zip"]}}</td><td></td></tr>
+		 		<tr><td>WorkTime:</td><td>{{finfo["WorkTime"]}}</td><td></td></tr>
+		 		<tr><td>x:</td><td>{{finfo["x"]}}</td><td></td></tr>
+		 		<tr><td>y:</td><td>{{finfo["y"]}}</td><td></td></tr>
+		 		<tr><td>Credit:</td><td>{{finfo["Credit"]}}</td><td></td></tr>
+		 		<tr><td>WIC:</td><td>{{finfo["WIC"]}}</td><td></td></tr>
+		 		<tr><td>WICCash:</td><td>{{finfo["WICCash"]}}</td><td></td></tr>
+		 </tbody>
+        </table>
+      </div>
+</div>
+<form method="post">
+	<p><center><b>Your grade:</b></center></p>
+<div class="rating-area">
+	<input type="radio" id="star-5" name="rating" value="5">
+	<label for="star-5" title="Grade «5»"></label>
+	<input type="radio" id="star-4" name="rating" value="4">
+	<label for="star-4" title="Grade «4»"></label>
+	<input type="radio" id="star-3" name="rating" value="3" checked>
+	<label for="star-3" title="Grade «3»"></label>
+	<input type="radio" id="star-2" name="rating" value="2">
+	<label for="star-2" title="Grade «2»"></label>
+	<input type="radio" id="star-1" name="rating" value="1">
+	<label for="star-1" title="Grade «1»"></label>
+</div>
+	<p><input type="hidden" name="fid" value="{{finfo['id']}}"/></p>
+	<p><textarea cols=50 rows=3 placeholder="Input your comment:" name="comment"></textarea></p>
+	<p><input type="text" size=47 placeholder="Input your name:" name="fio"/></p>
+	<p></p>
+	<p><button type="submit" class="btn btn-primary">Rate market</button>&ensp;&ensp;<a href="/about/{{finfo['id']}}/del" class="btn btn-danger">Delete market</a></p>
+</form>
+
+<p>{{message}}</p>
+	<table class="table table-hover">
+         <thead>
+              <tr>
+                  <th>Name </th>
+                  <th>Review </th>
+                  <th>Grade </th>
+			  </tr>
+         </thead>
+         <tbody>
+                {% for row in rrows %}
+                <tr>
+                    <td>{{row["Name"]}}</td>
+                    <td>{{row["rev"]}}</td>
+                    <td> {{row["rating"]}}</td>
+				</tr>
+                {% endfor %}
+
+         </tbody>
+	</table>
+<p><a href="/" class="btn btn-primary">Back to market list</a></p>
+
+{% endblock %}
