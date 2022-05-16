@@ -38,8 +38,5 @@ public class Calculator {
         return (a-b);
     }
 
-    public static void main(String[] args) {
-        Calculator calc = new Calculator();
-        System.out.println(calc.sub(241.2,4534.3));
-    }
+
 }
