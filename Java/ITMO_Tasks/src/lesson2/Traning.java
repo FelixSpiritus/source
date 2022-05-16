@@ -31,10 +31,22 @@ public class Traning {
         this.price = price;
     }
 
+    @Override
+    public String toString() {
+        return "Traning{" +
+                "trainer='" + trainer + '\'' +
+                ", title='" + title + '\'' +
+                ", duration=" + duration +
+                ", memberqty=" + memberqty +
+                ", price=" + price +
+                '}';
+    }
+
     public static void main(String[] args) {
         Traning tran = new Traning();
         tran.setTrainer("Ivanov");
         tran.setTitle("Tradings");
         tran.setPrice(100);
+        System.out.println(tran);
     }
 }
