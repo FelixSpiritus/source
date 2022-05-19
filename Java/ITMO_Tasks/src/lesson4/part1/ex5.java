@@ -14,7 +14,7 @@ public class ex5 {
                 System.out.print(arr[i]+",");
             }
         }
-        if (arr[0]==3 && arr[arr.length-1]==3) {
+        if (arr[0]==3 || arr[arr.length-1]==3) {
             res = true;
         }
         System.out.println();
