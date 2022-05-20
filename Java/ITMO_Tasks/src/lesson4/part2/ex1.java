@@ -1,9 +1,8 @@
 package lesson4.part2;
 
 public class ex1 {
-    public static void main(String[] args) {
+    public static void checksort(int[] arr) {
         boolean res = true;
-        int[] arr = new int[]{2, 3, 7, 8, 9, 14, 3};
         for (int i = 0; i < arr.length-1; i++){
             if (arr[i] > arr[i+1]){
                 res = false;
@@ -16,5 +15,10 @@ public class ex1 {
         else{
             System.out.println("Please, try again");
         }
+    }
+
+    public static void main(String[] args) {
+        int[] arr = new int[]{2, 3, 7, 8, 9, 14, 3};
+        checksort(arr);
     }
 }

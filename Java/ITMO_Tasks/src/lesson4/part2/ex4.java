@@ -1,8 +1,7 @@
 package lesson4.part2;
 
 public class ex4 {
-    public static void main(String[] args) {
-        int[] arr = new int[]{1, 2, 3, 1, 2, 4};
+    public static void findunic(int[] arr) {
         boolean unic;
         for (int i = 0; i < arr.length; i++){
             unic = true;
@@ -16,5 +15,10 @@ public class ex4 {
                 break;
             }
         }
+    }
+
+    public static void main(String[] args) {
+        int[] arr = new int[]{1, 2, 3, 1, 2, 4};
+        findunic(arr);
     }
 }

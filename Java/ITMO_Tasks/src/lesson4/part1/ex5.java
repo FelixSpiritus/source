@@ -2,10 +2,9 @@ package lesson4.part1;
 
 
 public class ex5 {
-    public static void main(String[] args) {
+    public static void check3(int[] arr){
         boolean res = false;
         System.out.print("array = ");
-        int[] arr = new int[] {3, -3, 7, 4, 5, 4, 3};
         for (int i = 0; i < arr.length ; i++){
             if (i == arr.length-1) {
                 System.out.print(arr[i]);
@@ -19,5 +18,9 @@ public class ex5 {
         }
         System.out.println();
         System.out.println(res);
+    }
+    public static void main(String[] args) {
+        int[] arr = new int[] {3, -3, 7, 4, 5, 4, 3};
+        check3(arr);
     }
 }
