@@ -3,7 +3,7 @@ package lesson5;
 public class ex1 {
     public static void longestWord(String str) {
         String st;
-        st = str.replaceAll("[()?:!.\'\"\\,;{}]+", "");
+        st = str.replaceAll("[^a-zA-Zа-яА-Я\\s]+", "");
         String[] splited = st.split("\\s+");
         st = "";
         for(String s : splited) {
