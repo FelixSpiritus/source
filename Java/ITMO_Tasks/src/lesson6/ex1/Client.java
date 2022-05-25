@@ -1,7 +1,7 @@
 package lesson6.ex1;
 
 public class Client extends Man{
-    String bankName;
+    private String bankName;
 
     public Client(String name, String surname) {
         super(name, surname);

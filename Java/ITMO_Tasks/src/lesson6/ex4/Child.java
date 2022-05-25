@@ -6,6 +6,6 @@ public class Child extends Parent{
     }
 
     public void printParentNum() {
-        System.out.println("Num from parent class: "+super.num);
+        System.out.println("Num from parent class: "+super.getNum());
     }
 }
