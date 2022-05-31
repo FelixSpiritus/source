@@ -1,4 +1,4 @@
-package lesson8;
+package lesson9;
 
 import java.util.*;
 
@@ -29,13 +29,18 @@ public class User {
     }
 
     public static void showUsePoints(Map<User, Integer> map) {
+        boolean notFound = true;
         Scanner scanner = new Scanner(System.in);
         System.out.print("Input user name: ");
         String str = scanner.next();
         for (Map.Entry<User, Integer> m : map.entrySet()) {
             if (m.getKey().getName().equalsIgnoreCase(str)) {
                 System.out.println(m.getKey().getName()+" points: "+m.getValue());
+                notFound = false;
             }
+        }
+        if (notFound) {
+            System.out.println("User not found");
         }
 
 

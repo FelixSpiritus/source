@@ -1,4 +1,4 @@
-package lesson8;
+package lesson9;
 
 import java.util.*;
 
@@ -10,5 +10,9 @@ public class ex2 {
             set.add(str);
         }
         return set;
+    }
+
+    public static void main(String[] args) {
+
     }
 }
