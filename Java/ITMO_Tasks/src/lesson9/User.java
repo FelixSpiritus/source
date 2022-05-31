@@ -47,7 +47,7 @@ public class User {
     }
 
     public static void main(String[] args) {
-        Map map = new HashMap();
+        Map<User, Integer> map = new HashMap<>();
         fillMap(map);
         showUsePoints(map);
     }
