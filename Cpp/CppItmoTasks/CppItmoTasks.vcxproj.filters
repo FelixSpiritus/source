@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="t1_c.cpp">
+    <ClCompile Include="t4c3DifferentTriangles.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

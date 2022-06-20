@@ -19,12 +19,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="t1_c.cpp" />
+    <ClCompile Include="t4c3DifferentTriangles.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{ab7115a0-152f-4827-b111-f187d5904f0d}</ProjectGuid>
+    <ProjectGuid>{978a9459-009b-4645-b7e9-d4b6cbbb70f9}</ProjectGuid>
     <RootNamespace>CppItmoTasks</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>

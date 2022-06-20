@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "326d1f52-7ba3-4de0-96ad-44f17fedad9d": {
+      "ProjectGuid": "326d1f52-7ba3-4de0-96ad-44f17fedad9d",
+      "DisplayName": "TargetShooting",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}

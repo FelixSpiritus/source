@@ -5,3 +5,11 @@ C:\Users\Dmitry\source\repos\TargetShooting\obj\Debug\TargetShooting.csproj.Asse
 C:\Users\Dmitry\source\repos\TargetShooting\obj\Debug\TargetShooting.csproj.CoreCompileInputs.cache
 C:\Users\Dmitry\source\repos\TargetShooting\obj\Debug\TargetShooting.exe
 C:\Users\Dmitry\source\repos\TargetShooting\obj\Debug\TargetShooting.pdb
+D:\Documents\Dropbox\source\Csharp\TargetShooting\bin\Debug\TargetShooting.exe.config
+D:\Documents\Dropbox\source\Csharp\TargetShooting\bin\Debug\TargetShooting.exe
+D:\Documents\Dropbox\source\Csharp\TargetShooting\bin\Debug\TargetShooting.pdb
+D:\Documents\Dropbox\source\Csharp\TargetShooting\obj\Debug\TargetShooting.csproj.AssemblyReference.cache
+D:\Documents\Dropbox\source\Csharp\TargetShooting\obj\Debug\TargetShooting.csproj.SuggestedBindingRedirects.cache
+D:\Documents\Dropbox\source\Csharp\TargetShooting\obj\Debug\TargetShooting.csproj.CoreCompileInputs.cache
+D:\Documents\Dropbox\source\Csharp\TargetShooting\obj\Debug\TargetShooting.exe
+D:\Documents\Dropbox\source\Csharp\TargetShooting\obj\Debug\TargetShooting.pdb

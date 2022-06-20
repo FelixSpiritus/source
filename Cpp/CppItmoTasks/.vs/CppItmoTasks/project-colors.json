@@ -1,10 +1,15 @@
 {
   "Version": 1,
   "ProjectMap": {
-    "ab7115a0-152f-4827-b111-f187d5904f0d": {
-      "ProjectGuid": "ab7115a0-152f-4827-b111-f187d5904f0d",
+    "978a9459-009b-4645-b7e9-d4b6cbbb70f9": {
+      "ProjectGuid": "978a9459-009b-4645-b7e9-d4b6cbbb70f9",
       "DisplayName": "CppItmoTasks",
       "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
     }
   },
   "NextColorIndex": 1
