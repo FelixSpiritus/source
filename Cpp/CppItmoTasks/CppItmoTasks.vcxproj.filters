@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="t6c2SaveData.cpp">
+    <ClCompile Include="t7c3QuadraticEquation2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
