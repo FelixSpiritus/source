@@ -22,13 +22,15 @@ int main()
 	scores.push_back(3);
 	scores.push_back(3);
 	student* stud = new student("Петров", "Иван", "Алексеевич", scores);
+	human* hum = new human("Петров", "Иван", "Ивнович");
 	stud->get_full_name();
 	std::cout << "Средний балл : " << stud->get_average_score() << std::endl;
 	unsigned int teacher_work_time = 40;
 	teacher* tch = new teacher("Сергеев", "Дмитрий", "Сергеевич", teacher_work_time);
 	tch->get_full_name();
 	std::cout << "Количество часов: " << tch->get_work_time() << std::endl;
-	delete tch;
-	delete stud;
+	tch->get_full_name();
+	stud->get_full_name();
+	hum->get_full_name();
 	return 0;
 }
