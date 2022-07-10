@@ -22,7 +22,7 @@ int main()
 	scores.push_back(3);
 	scores.push_back(3);
 	student* stud = new student("Петров", "Иван", "Алексеевич", scores);
-	human* hum = new human("Петров", "Иван", "Ивнович");
+	human* hum = stud;
 	stud->get_full_name();
 	std::cout << "Средний балл : " << stud->get_average_score() << std::endl;
 	unsigned int teacher_work_time = 40;
