@@ -29,7 +29,13 @@ int main()
 	tch->get_full_name();
 	std::cout << "Количество часов: " << tch->get_work_time() << std::endl;
 	std::cout << endl;
-	human* hum = stud;
-	hum->get_full_name();
+	human* hum1 = stud;
+	hum1->get_full_name();
+	human* hum2 = new human("Ветров", "Иван", "Борисович");
+	std::cout << endl;
+	hum2->get_full_name();
+	delete stud;
+	delete tch;
+	delete hum2;
 	return 0;
 }

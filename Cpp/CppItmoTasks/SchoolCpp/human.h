@@ -13,7 +13,7 @@ public:
 		this->second_name = second_name;
 	}
 	// Получение ФИО человека
-	void get_full_name()
+	virtual void get_full_name()
 	{
 		ostringstream full_name;
 		full_name << this->last_name << " "
