@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="t11c2SortPoint.cpp">
+    <ClCompile Include="t15c1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
