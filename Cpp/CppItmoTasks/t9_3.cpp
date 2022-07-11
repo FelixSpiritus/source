@@ -1,21 +1,25 @@
 #include <iostream>
 #include <string>
+#include "windows.h"
 using namespace std;
+
+
+
 class Student
 {
-public:
 public:
 	class ExScore //класс исключений
 	{
 	public:
 		string origin; //для имени функции
 		int iValue; //для хранения ошибочного значения
-		ExScore(string or , int sc)
+		ExScore(string org, int sc)
 		{
-			origin = or ; //строка с именем виновника ошибки
+			origin = org; //строка с именем виновника ошибки
 			iValue = sc; //сохраненное неправильное значение
 		}
 	};
+	
 	// Установка имени студента
 	void set_name(string student_name)
 	{
@@ -40,6 +44,8 @@ public:
 	void set_scores(int student_scores[])
 	{
 		for (int i = 0; i < 5; ++i) {
+			if (student_scores[i] > 5)
+				throw ExScore("в функции set_scores()", student_scores[i]);
 			scores[i] = student_scores[i];
 		}
 	}
@@ -53,6 +59,7 @@ public:
 	{
 		return average_score;
 	}
+
 private:
 	int scores[5]; // Промежуточные оценки
 	double average_score; // Средний балл
@@ -61,6 +68,8 @@ private:
 };
 int main()
 {
+	SetConsoleOutputCP(1251);
+	SetConsoleCP(1251);
 	// Создание объекта класса Student
 	Student student01;
 	string name;
@@ -85,12 +94,20 @@ int main()
 	student01.set_name(name);
 	student01.set_last_name(last_name);
 	// Сохранение промежуточных оценок в объект класса Student
-	student01.set_scores(scores);
-	double average_score = sum / 5.0;
-	// Сохранение среднего балла в объект класса Student
-	student01.set_average_score(average_score);
-	cout << "Average ball for " << student01.get_name() << " "
-		<< student01.get_last_name() << " is "
-		<< student01.get_average_score() << endl;
+	try
+	{
+		student01.set_scores(scores);
+		double average_score = sum / 5.0;
+		// Сохранение среднего балла в объект класса Student
+		student01.set_average_score(average_score);
+		cout << "Average ball for " << student01.get_name() << " "
+			<< student01.get_last_name() << " is "
+			<< student01.get_average_score() << endl;
+	}
+	catch (Student::ExScore& ex)
+	{
+		cout << "\nОшибка инициализации " << ex.origin;
+		cout << "\nВведенное значение оценки " << ex.iValue << "является недопустимым\n";
+	}
 	return 0;
 }
