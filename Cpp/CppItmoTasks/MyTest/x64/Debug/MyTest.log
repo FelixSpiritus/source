@@ -1,0 +1,9 @@
+﻿  Book.cpp
+D:\Documents\Dropbox\source\Cpp\CppItmoTasks\MyTest\Book.cpp(14,26): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  Human.cpp
+  Student.cpp
+D:\Documents\Dropbox\source\Cpp\CppItmoTasks\MyTest\Student.cpp(4,49): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+  Teacher.cpp
+  main.cpp
+  Generating Code...
+  MyTest.vcxproj -> D:\Documents\Dropbox\source\Cpp\CppItmoTasks\MyTest\x64\Debug\MyTest.exe

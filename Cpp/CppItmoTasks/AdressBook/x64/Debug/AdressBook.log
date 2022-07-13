@@ -1,0 +1,10 @@
+﻿  Book.cpp
+D:\Documents\Dropbox\source\Cpp\CppItmoTasks\AdressBook\Book.cpp(14,26): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  Human.cpp
+  IViewer.cpp
+  main.cpp
+  Student.cpp
+D:\Documents\Dropbox\source\Cpp\CppItmoTasks\AdressBook\Student.cpp(4,49): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+  Teacher.cpp
+  Generating Code...
+  AdressBook.vcxproj -> D:\Documents\Dropbox\source\Cpp\CppItmoTasks\AdressBook\x64\Debug\AdressBook.exe

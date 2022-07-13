@@ -2,12 +2,14 @@
 #include "Human.h"
 #include <string>
 #include <vector>
+#include <sstream>
+#include <iostream>
 using namespace std;
 
-class student : public Human
+class Student : public Human
 {
 public:
-	student(string last_name, string name, string second_name,
+	Student(string last_name, string name, string second_name,
 		vector<int> scores) : Human(last_name, name, second_name)
 	{
 		this->scores = scores;
@@ -23,12 +25,24 @@ public:
 		average_score = (float)sum_scores / (float)count_scores;
 		return average_score;
 	}
-	void get_full_info()
+	string GetInfo()
 	{
-		cout << "\nСтудент ";
-		Human::get_full_info();
+		ostringstream getinfo;
+		getinfo << category << " " << GetLastName() << " "
+			<< GetName() << " "
+			<< GetSecondName() << " average score: " << get_average_score();
+		return getinfo.str();
+	 
 	}
+
+	string GetCategory()
+	{
+		return this->category;
+	}
+
+	
 private:
 	vector<int> scores;
+	const string category = "student";
 };
 

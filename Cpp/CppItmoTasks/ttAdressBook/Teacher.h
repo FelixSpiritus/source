@@ -1,16 +1,19 @@
 #pragma once
 #include "Human.h"
 #include <string>
+#include <sstream>
+#include <iostream>
+#include "Book.h"
+#include "iBook.h"
 using namespace std;
-class teacher : public Human
+class Teacher : public Human
 {
-	// Конструктор класса teacher
+	
 public:
-	teacher(
-		std::string last_name,
-		std::string name,
-		std::string second_name,
-		// Количество учебных часов за семестр у преподавателя
+	Teacher(
+		string last_name,
+		string name,
+		string second_name,
 		unsigned int work_time
 	) : Human(
 		last_name,
@@ -19,18 +22,31 @@ public:
 	) {
 		this->work_time = work_time;
 	}
-	// Получение количества учебных часов
 	unsigned int get_work_time()
 	{
 		return this->work_time;
 	}
-	void get_full_name()
+	string GetInfo()
 	{
-		cout << "\nПреподаватель ";
-		Human::get_full_info();
+		ostringstream getinfo;
+		getinfo << category << " " << GetLastName() << " "
+			<< GetName() << " "
+			<< GetSecondName() << " work time: " << get_work_time();
+		return getinfo.str();
 	}
+
+	string GetCategory()
+	{
+		return this->category;
+	}
+
+	//void ShowBook(iBook& book)
+	//{
+	//	cout << "BookOut" << endl;
+	//	//book.BookOut();
+	//}
 private:
-	// Учебные часы
 	unsigned int work_time;
+	const string category = "teacher";
 };
 

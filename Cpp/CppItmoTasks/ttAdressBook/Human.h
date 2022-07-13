@@ -1,7 +1,5 @@
 #pragma once
 #include <string>
-#include <sstream>
-#include <iostream>
 using namespace std;
 
 class Human {
@@ -12,14 +10,23 @@ public:
 		this->name = name;
 		this->second_name = second_name;
 	}
-	virtual void get_full_info()
+	virtual string GetInfo() = 0;
+	virtual string GetCategory() = 0;
+	
+
+	string GetName()
 	{
-		ostringstream full_info;
-		full_info << this->last_name << " "
-			<< this->name << " "
-			<< this->second_name;
-		cout << full_info.str() << endl;
+		return this->name;
 	}
+	string GetLastName()
+	{
+		return this->last_name;
+	}
+	string GetSecondName()
+	{
+		return this->second_name;
+	}
+	
 private:
 	string name;
 	string last_name;
