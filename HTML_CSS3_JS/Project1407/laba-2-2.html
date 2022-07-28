@@ -1,0 +1,74 @@
+<html>
+
+<head>
+    <title>название на вкладке</title>
+</head>
+
+<body>
+    <header>
+        <h1>заголовок на самой странице</h1>
+    </header>
+
+
+    <br /> <br />
+
+    <main>
+        <section>
+            <article>
+                <a href="#">Название статьи</a>
+                <p>Это небольшое описание статьи, ссылка на полный текст которой указан
+                    выше
+                </p>
+            </article>
+            <article>
+                <a href="#">Название статьи</a>
+                <p>Это небольшое описание статьи, ссылка на полный текст которой указан
+                    выше
+                </p>
+            </article>
+            <article id="change">
+                <a href="#" onmouseover="ChangeStyle()">Название статьи</a>
+                <p>Это небольшое описание статьи, ссылка на полный текст которой указан
+                    выше
+                </p>
+                <ol>
+                    <li>нумерованный список</li>
+                    <li>нумерованный список</li>
+                    <li>нумерованный список</li>
+                    <li>нумерованный список</li>
+                </ol>
+            </article>
+        </section>
+        <script type="text/javascript">
+            function ChangeStyle() {
+                change.style.color='red';
+                change.style.fontSize='30px'
+                change.style.fontWeight='bold'
+                change.style.textDecoration='underline'
+            }
+            
+
+        </script>
+
+
+
+        <section>
+            Обо мне. Какое-то описание моей дестельности.
+        </section>
+
+        <section id="text">
+            Контакты. Номер телефона и почтовый адрес.
+        </section>
+
+        <button onclick="ChangeStyle()">ChangeStyle</button>
+
+    </main>
+
+    <footer align="center">&copy; Copyright 2020</footer>
+
+    <script charset="utf-8" src="./js/main.js"></script>
+
+
+</body>
+
+</html>

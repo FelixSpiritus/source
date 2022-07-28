@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<head>
+  <title>ProBook все пре книги</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <div id="context">
+    <ul class="context-menu">
+      <li><a onclick="javascript:history.back(); return false;">Назад</a></li>
+      <li><a onclick="javascript:history.forward(); return false;">Вперед</a></li>
+      <li><a onclick="javascript:location.reload(); return false;">Перезагрузить</a></li>
+    </ul>
+  </div>
+  <header id="main-header">
+    <h1 id="site-title">Новости книжного мира</h1>
+    <ul class="profile-menu">
+      <li><a class="profile-menu-trigger" data-trigger="dropdown" href="">МЕНЮ</a>
+        <ul class="profile-submenu submenu">
+          <li><a href="./main.html">Главная</a></li>
+          <li><a href="./backform.html">Оставить отзыв</a></li>
+          <li><a href="#">Про нас</a></li>
+        </ul>
+      </li>
+    </ul>
+  </header>
+  <main>
+    <section id="top-stories">
+      <article onclick="return location.href = './cheburashka.html'">
+        <div class="article-image" style="background:url(./img/che.jpg)"></div>
+        <h3>Кто такой Чебурашка?</h3>
+        <p class="shot-stories">
+          Этот то ли медведь, то ли заяц (а на самом деле ни тот ни другой) впервые появился на страницах...
+        </p>
+      </article>
+
+      <article onclick="return location.href = './karlson.html'">
+        <div id="new" class="article-image" style="background:url(./img/kar.jpg)"></div>
+        <h3>Кто родители Карлсона?</h3>
+        <p class="shot-stories">
+          Рождению «мужчины в самом расцвете сил» предшествовали две сказки. В истории...
+        </p>
+      </article>
+
+
+      <article onclick="return location.href = './tom.html'">
+        <div class="article-image" style="background:url(./img/tom.jpg)"></div>
+        <h3>Право красить забор.</h3>
+        <p class="shot-stories">
+          Том выпустил кисть из рук с виду не очень охотно, зато с ликованием в
+          душе.
+        </p>
+      </article>
+
+
+      <article class="top-videos" onclick="return location.href = './bastinda.html'">
+        <video controls="controls" poster="./videos/vovka.jpg">
+          <source src="./videos/vovka.mp4" type='video/mp4'>
+        </video>
+        <h3>Сойдет или нет?</h3>
+        <p class="shot-stories">
+          Библиотекарь Анна Ивановна предложила Вовке очень интересную книгу «Сделай сам».
+          Но Вовка ничего не любил делать сам. То ли дело волшебные сказки! Царская жизнь! Только и делай,
+          что ничего не делай!
+        </p>
+      </article>
+
+      <article class="top-videos" onclick="return location.href = './bastinda.html'">
+        <video controls="controls" poster="./videos/bast.jpg">
+          <source src="./videos/bast.mp4" type='video/mp4'>
+        </video>
+        <h3>Как умерла Бастинда?</h3>
+        <p class="shot-stories">
+          Попытка завладеть башмачками закончилась для Бастинды плачевно. Когда колдунья
+          подлой уловки украла...
+        </p>
+      </article>
+
+
+    </section id="top-stories">
+  </main>
+
+  <footer>&copy; ProBook Copyright 2020</footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script charset="utf-8" src="./js/main.js"></script>
+</body>
+
+</html>

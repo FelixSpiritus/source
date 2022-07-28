@@ -1,0 +1,91 @@
+<html>
+  <head>
+      <title>название на вкладке</title>
+  </head>
+  <body>
+    <header>
+      <h1>заголовок на самой странице</h1>
+    </header>
+
+
+    <br />  <br />
+
+    <main>
+      <section>
+        <article>
+            <a href="#">Название статьи</a>
+            <p>Это небольшое описание статьи, ссылка на полный текст которой указан
+              выше
+            </p>
+        </article>
+        <article>
+            <a href="#">Название статьи</a>
+            <p>Это небольшое описание статьи, ссылка на полный текст которой указан
+              выше
+            </p>
+        </article>
+        <article>
+            <a href="#">Название статьи</a>
+            <p>Это небольшое описание статьи, ссылка на полный текст которой указан
+              выше
+            </p>
+            <ol>
+              <li>нумерованный список</li>
+              <li>нумерованный список</li>
+              <li>нумерованный список</li>
+              <li>нумерованный список</li>
+            </ol>
+        </article>
+      </section>
+      <script type="text/javascript">
+		var n = 9;					// Количество рядов и ячеек в ряду
+		
+		// Отрисовка таблицы
+		document.write("<table>");
+		// Цикл рядов
+		for (var tr = 1; tr <= n; tr++)
+		{
+			if (tr == 1)
+				document.write('<tr bgcolor="red">');
+			else
+				document.write("<tr>");
+			// Цикл ячеек
+			for (var td = 1; td <= n; td++)
+			{
+				if (td == 1)
+					document.write('<td bgcolor="red">');
+				else	
+					document.write("<td>");
+				
+				document.write(tr*td);
+				document.write("</td>");
+			}
+			// Конец ряда
+			document.write("</tr>");
+		}
+		// Конец таблицы
+		document.write("</table>");
+	</script>
+    
+   
+
+    <section>
+      Обо мне. Какое-то описание моей дестельности.
+    </section>
+
+    <section id="text">
+      Контакты. Номер телефона и почтовый адрес.
+    </section>
+
+    <button id="change">Change</button>
+
+      </main>
+
+    <footer align="center">&copy; Copyright 2020</footer>
+
+    <script charset="utf-8" src="./js/main1.js"></script>  
+   
+
+  </body>
+
+</html>
