@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<div>
+
+  <table>
+    <tr>
+      <th>Product group</th>
+      <th>Description</th>
+    </tr>
+    <tr th:each="el:${productGroups}">
+      <td th:text="${el.title}">
+      <td th:text="${el.descr}">
+    </tr>
+   </table>
+
+
+</div>
+<form action="/productGroups" method="post">
+  <input type="text" name="title" placeholder="Input product group title">
+  <input type="text" name="desc" placeholder="Input product group description">
+  <button type="submit">NEW</button>
+</form>
+
+
+</body>
+</html>

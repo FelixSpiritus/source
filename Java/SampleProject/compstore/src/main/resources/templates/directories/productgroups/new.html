@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Product group creator</title>
+    <link th:href="@{/css/bootstrap/bootstrap.min.css}" rel="stylesheet" />
+    <link th:href="@{/css/style.css}" rel="stylesheet" />
+</head>
+<body class="bg-light">
+<div class="container">
+    <header th:insert="blocks/header :: header"></header>
+    <main>
+        <h4 class="mb-3">Product group creator</h4>
+        <div>
+            <form th:action="@{/directories/productgroups}" th:method="post" th:object="${productGroup}">
+                <div class="row g-5">
+
+                    <div class="col-12">
+                        <label for="title" class="form-label">Input title: </label>
+                        <input type="text" class="form-control" th:field="*{title}" id="title" placeholder="title"/>
+                        <div style="color:red" th:if="${#fields.hasErrors('title')}" th:errors="*{title}">title error</div>
+                    </div>
+                    <div class="col-12">
+                        <label for="descr" class="form-label">Input specification: </label>
+                        <input type="text" class="form-control" th:field="*{descr}" id="descr" placeholder="description"/>
+                        <div style="color:red" th:if="${#fields.hasErrors('descr')}" th:errors="*{descr}">description error</div>
+                    </div>
+
+                    <input type="submit" class="w-25 btn btn-primary btn-lg" value="Create product group"/>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer th:insert="blocks/footer :: footer"></footer>
+</div>
+</body>
+

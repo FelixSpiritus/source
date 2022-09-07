@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Product group list</title>
+    <link th:href="@{/css/bootstrap/bootstrap.min.css}" rel="stylesheet" />
+    <link th:href="@{/css/style.css}" rel="stylesheet" />
+</head>
+<body class="bg-light">
+<div class="container">
+    <header th:insert="blocks/header :: header"></header>
+    <main>
+        <h4 class="mb-3">Product group list</h4>
+        <div>
+            <table class="table table-hover">
+                <thead>
+                <tr>
+                    <th>Product id</th>
+                    <th>Product group title</th>
+                    <th>Product group description</th>
+                </tr>
+                </thead>
+                <tbody>
+                    <div th:each="pg : ${productGroups}">
+                        <tr>
+                            <td><a class="link_list_row" th:href="@{/directories/productgroups/{id}(id=${pg.id})}"
+                                   th:text="${(pg.id)}">product</a></td>
+                            <td><a class="link_list_row" th:href="@{/directories/productgroups/{id}(id=${pg.id})}"
+                                   th:text="${(pg.title)}">product</a></td>
+                            <td><a class="link_list_row" th:href="@{/directories/productgroups/{id}(id=${pg.id})}"
+                                   th:text="${pg.descr}">product</a></td>
+                        </tr>
+                    </div>
+                <tbody/>
+            </table>
+            <br/>
+            <form th:method="GET" th:action="@{/directories/productgroups/new}">
+                <input type="submit" class="w-25 btn btn-primary btn-lg" value="Create new product group"/>
+            </form>
+        </div>
+    </main>
+    <footer th:insert="blocks/footer :: footer"></footer>
+</div>
+</body>
+</html>

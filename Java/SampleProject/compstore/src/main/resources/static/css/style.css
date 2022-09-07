@@ -1,0 +1,9 @@
+
+.link_list_row {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+.form-inline {
+    display: inline;
+}

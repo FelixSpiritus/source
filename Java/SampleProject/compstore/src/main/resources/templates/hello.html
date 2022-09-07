@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Hello</title>
+  <link th:href="@{/css/bootstrap/bootstrap.min.css}" rel="stylesheet" />
+  <link th:href="@{/css/style.css}" rel="stylesheet" />
+</head>
+<body class="bg-light">
+<div class="d-flex flex-nowrap" >
+<!--  <aside th:insert="blocks/sidebar :: aside"></aside>-->
+  <div class="container">
+    <header th:insert="blocks/header :: header"></header>
+
+    <main>
+
+<!--      Hello world!-->
+<!--      <form th:action="@{/logout}" th:method="POST">-->
+<!--        <input type="submit" value="Logout" />-->
+<!--      </form>-->
+    </main>
+  </div>
+</div>
+</body>
+</html>
