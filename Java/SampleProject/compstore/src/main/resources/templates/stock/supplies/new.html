@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>New supply</title>
+    <link th:href="@{/css/bootstrap/bootstrap.min.css}" rel="stylesheet" />
+    <link th:href="@{/css/style.css}" rel="stylesheet" />
+</head>
+<body class="bg-light">
+<div class="container">
+    <header th:insert="blocks/stockheader :: stockheader"></header>
+    <main>
+        <h4 class="mb-3">Supply creator</h4>
+        <div>
+            <form th:action="@{/stock/supplies}" th:method="post" th:object="${supply}">
+                <div class="row g-5">
+                    <div class="col-12">
+                        <label for="product" class="form-label">Select product:</label>
+                        <select id="product" class="form-control" th:field="*{product}" name="product">
+                            <option value="">product list</option>
+                            <option th:each="prod:${products}"
+                                    th:value="${prod.id}"
+                                    th:text="${prod.title}"></option>
+                        </select>
+                        <div style="color:red" th:if="${#fields.hasErrors('product')}" th:errors="*{product}">product error</div>
+                    </div>
+                    <div class="col-12">
+                        <label for="supplier" class="form-label">Select supplier:</label>
+                        <select id="supplier" class="form-control" th:field="*{supplier}" name="supplier name">
+                            <option value="">supplier list</option>
+                            <option th:each="supp:${suppliers}"
+                                    th:value="${supp.id}"
+                                    th:text="${supp.name}"></option>
+                        </select>
+                        <div style="color:red" th:if="${#fields.hasErrors('supplier')}" th:errors="*{supplier}">product error</div>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <label for="date"class="form-label">Supplier date: </label>
+                        <input type="date" class="form-control"  th:field="*{supplydate}" id="date" placeholder="supply date"/>
+                        <div style="color:red" th:if="${#fields.hasErrors('supplydate')}" th:errors="*{supplydate}">date error</div>
+                    </div>
+                    <div class="col-sm-6">
+                        <label for="quantity"class="form-label">Quantity: </label>
+                        <input type="text" class="form-control"  th:field="*{quantity}" id="quantity" placeholder="quantity"/>
+                        <div style="color:red" th:if="${#fields.hasErrors('quantity')}" th:errors="*{quantity}">quantity error</div>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="pricein"class="form-label">Purchase price: </label>
+                        <input type="text" class="form-control"  th:field="*{pricein}" id="pricein" placeholder="purchase price"/>
+                        <div style="color:red" th:if="${#fields.hasErrors('pricein')}" th:errors="*{pricein}">pricein error</div>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="pricewh"class="form-label">Wholesale price: </label>
+                        <input type="text" class="form-control" th:field="*{pricewh}" id="pricewh" placeholder="wholesale price"/>
+                        <div style="color:red" th:if="${#fields.hasErrors('pricewh')}" th:errors="*{pricewh}">pricewh error</div>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="priceret"class="form-label">Retail price: </label>
+                        <input type="text" class="form-control" th:field="*{priceret}" id="priceret" placeholder="retail price"/>
+                        <div style="color:red" th:if="${#fields.hasErrors('priceret')}" th:errors="*{priceret}">retail price error</div>
+                    </div>
+                    <div class="col-12">
+                        <label for="person" class="form-label">Select person:</label>
+                        <select id="person" class="form-control" th:field="*{person}" name="person">
+                            <option value="">supplier list</option>
+                            <option th:each="pep:${people}"
+                                    th:value="${pep.id}"
+                                    th:text="${pep.name+' '+pep.surname}"></option>
+                        </select>
+                        <div style="color:red" th:if="${#fields.hasErrors('person')}" th:errors="*{person}">person error</div>
+                    </div>
+                    <div class="col-12" th:object="${storageItem}">
+                        <label for="storage" class="form-label">Select storage:</label>
+                        <select id="storage" class="form-control"  th:field="*{storage}" name="storage">
+                            <option value="">storage list</option>
+                            <option th:each="stor:${storages}"
+                                    th:value="${stor.id}"
+                                    th:text="${stor.title}"></option>
+                        </select>
+                        <div style="color:red" th:if="${#fields.hasErrors('storage')}" th:errors="*{storage}">person error</div>
+                    </div>
+                    <input type="submit" class="w-25 btn btn-primary btn-lg" value="Create supply"/>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer th:insert="blocks/footer :: footer"></footer>
+</div>
+</body>
+</html>

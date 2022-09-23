@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Show Supply</title>
+    <link th:href="@{/css/bootstrap/bootstrap.min.css}" rel="stylesheet" />
+    <link th:href="@{/css/style.css}" rel="stylesheet" />
+</head>
+<body class="bg-light">
+<div class="container">
+    <header th:insert="blocks/stockheader :: stockheader"></header>
+    <main>
+        <h4 class="mb-3">Supply information</h4>
+        <div>
+            <table class="table table-striped">
+
+                <tbody>
+                    <tr>
+                        <td>Supply Id:</td>
+                        <td><span th:text="${supply.id}"/></td>
+                    </tr>
+                    <tr>
+                        <td>Product title:</td>
+                        <td><span th:text="${supply.product.title}"/></td>
+                    </tr>
+                    <tr>
+                        <td>Supplier name:</td>
+                        <td><span th:text="${supply.supplier.name}"/></td>
+                    </tr>
+                    <tr>
+                        <td>Supply date:</td>
+                        <td><span th:text="${supply.supplydate}"/></td>
+                    </tr>
+                    <tr>
+                        <td>Quantity:</td>
+                        <td><span th:text="${supply.quantity}"/></td>
+                    </tr>
+                    <tr>
+                        <td>Purchase price:</td>
+                        <td><span th:text="${supply.pricein}"/></td>
+                    </tr>
+                    <tr>
+                        <td>Wholesale price:</td>
+                        <td><span th:text="${supply.pricewh}"/></td>
+                    </tr>
+                    <tr>
+                        <td>Retail price:</td>
+                        <td><span th:text="${supply.priceret}"/></td>
+                    </tr>
+                    <tr>
+                        <td>Responsible person:</td>
+                        <td><span th:text="${supply.person.name+' '+supply.person.surname}"/></td>
+                    </tr>
+                <tbody/>
+            </table>
+            <br/>
+            <form class="form-inline" th:method="GET" th:action="@{/stock/supplies/{id}/edit(id=${supply.id})}">
+                <input type="submit" class="w-25 btn btn-primary btn-lg" value="Edit"/>
+            </form>
+            <form class="form-inline" th:method="DELETE" th:action="@{/stock/supplies/{id}(id=${supply.id})}">
+                <input type="submit" class="w-25 btn btn-primary btn-lg" value="Delete"/>
+            </form>
+        </div>
+    </main>
+    <footer th:insert="blocks/footer :: footer"></footer>
+</div>
+</body>
+</html>
+
+
+
+

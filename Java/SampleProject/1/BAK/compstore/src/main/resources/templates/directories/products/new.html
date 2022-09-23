@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>New product</title>
+    <link th:href="@{/css/bootstrap/bootstrap.min.css}" rel="stylesheet" />
+    <link th:href="@{/css/style.css}" rel="stylesheet" />
+</head>
+<body class="bg-light">
+<div class="container">
+    <header th:insert="blocks/header :: header"></header>
+    <main>
+        <h4 class="mb-3">Product creator</h4>
+        <div>
+            <form th:action="@{/directories/products}" th:method="post" th:object="${product}">
+                <div class="row g-5">
+                    <div class="col-12">
+                        <label for="productGroup" class="form-label">Select product group:</label>
+                        <select id="productGroup" class="form-control" th:field="*{productGroup}" name="productGroup">
+                            <option value="">product groups list</option>
+                            <option th:each="pg:${productGroups}"
+                                    th:value="${pg.id}"
+                                    th:text="${pg.title}"></option>
+                        </select>
+                        <div style="color:red" th:if="${#fields.hasErrors('productGroup')}" th:errors="*{productGroup}">title error</div>
+                    </div>
+                    <div class="col-12">
+                        <label for="title"class="form-label">Input title: </label>
+                        <input type="text" class="form-control"  th:field="*{title}" id="title" placeholder="title"/>
+                        <div style="color:red" th:if="${#fields.hasErrors('title')}" th:errors="*{title}">title error</div>
+                    </div>
+                    <div class="col-12">
+                        <label for="spec"class="form-label">Input specification: </label>
+                        <input type="text" class="form-control"  th:field="*{spec}" id="spec" placeholder="specification"/>
+                        <div style="color:red" th:if="${#fields.hasErrors('spec')}" th:errors="*{spec}">spec error</div>
+                    </div>
+                    <div class="col-sm-6">
+                        <label for="size"class="form-label">Input size: </label>
+                        <input type="text" class="form-control" th:field="*{size}" id="size" placeholder="size"/>
+                        <div style="color:red" th:if="${#fields.hasErrors('size')}" th:errors="*{size}">size error</div>
+                    </div>
+                    <div class="col-sm-6">
+                        <label for="weight"class="form-label">Input weight: </label>
+                        <input type="text" class="form-control" th:field="*{weight}" id="weight" placeholder="weight"/>
+                        <div style="color:red" th:if="${#fields.hasErrors('weight')}" th:errors="*{weight}">weight error</div>
+                    </div>
+                    <div class="col-12">
+                        <label for="country"class="form-label">Input country: </label>
+                        <input type="text" class="form-control" th:field="*{country}" id="country" placeholder="country"/>
+                        <div style="color:red" th:if="${#fields.hasErrors('country')}" th:errors="*{country}">country error</div>
+                    </div>
+                    <div class="col-12">
+                        <label for="manufacturer" class="form-label">Input manufacturer: </label>
+                        <input type="text" class="form-control" th:field="*{manufacturer}" id="manufacturer" placeholder="manufacturer"/>
+                        <div style="color:red" th:if="${#fields.hasErrors('manufacturer')}" th:errors="*{country}">manufacturer error</div>
+                    </div>
+                    <input type="submit" class="w-25 btn btn-primary btn-lg" value="Create product"/>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer th:insert="blocks/footer :: footer"></footer>
+</div>
+</body>
+</html>

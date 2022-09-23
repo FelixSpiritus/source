@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Customer editor</title>
+    <link th:href="@{/css/bootstrap/bootstrap.min.css}" rel="stylesheet" />
+    <link th:href="@{/css/style.css}" rel="stylesheet" />
+</head>
+<body class="bg-light">
+<div class="container">
+    <header th:insert="blocks/saleheader :: saleheader"></header>
+    <main>
+        <h4 class="mb-3">Customer editor</h4>
+        <div>
+            <form th:method="PATCH" th:action="@{/sales/customers/{id}(id=${customer.id})}" th:object="${customer}">
+                <div class="row g-5">
+                    <div class="col-12">
+                        <label for="name"class="form-label">Input name: </label>
+                        <input type="text" class="form-control"  th:field="*{name}" id="name" placeholder="name"/>
+                        <div style="color:red" th:if="${#fields.hasErrors('name')}" th:errors="*{name}">name error</div>
+                    </div>
+                    <div class="col-12">
+                        <label for="surname"class="form-label">Input contact name: </label>
+                        <input type="text" class="form-control"  th:field="*{surname}" id="surname" placeholder="surname"/>
+                        <div style="color:red" th:if="${#fields.hasErrors('surname')}" th:errors="*{surname}">surname error</div>
+                    </div>
+                    <div class="col-12">
+                        <label for="companyname"class="form-label">Input contact name: </label>
+                        <input type="text" class="form-control"  th:field="*{companyname}" id="companyname" placeholder="company name"/>
+                        <div style="color:red" th:if="${#fields.hasErrors('companyname')}" th:errors="*{companyname}">company name error</div>
+                    </div>
+                    <div class="col-sm-6">
+                        <label for="country"class="form-label">Input country: </label>
+                        <input type="text" class="form-control" th:field="*{country}" id="country" placeholder="country"/>
+                        <div style="color:red" th:if="${#fields.hasErrors('country')}" th:errors="*{country}">country error</div>
+                    </div>
+                    <div class="col-sm-6">
+                        <label for="region"class="form-label">Input region: </label>
+                        <input type="text" class="form-control" th:field="*{region}" id="region" placeholder="region"/>
+                        <div style="color:red" th:if="${#fields.hasErrors('region')}" th:errors="*{region}">region error</div>
+                    </div>
+                    <div class="col-sm-6">
+                        <label for="city"class="form-label">Input city: </label>
+                        <input type="text" class="form-control" th:field="*{city}" id="city" placeholder="city"/>
+                        <div style="color:red" th:if="${#fields.hasErrors('city')}" th:errors="*{city}">city error</div>
+                    </div>
+                    <div class="col-sm-6">
+                        <label for="zipcode"class="form-label">Input zipcode: </label>
+                        <input type="text" class="form-control" th:field="*{zipcode}" id="zipcode" placeholder="zipcode"/>
+                        <div style="color:red" th:if="${#fields.hasErrors('zipcode')}" th:errors="*{zipcode}">zipcode error</div>
+                    </div>
+                    <div class="col-12">
+                        <label for="address" class="form-label">Input address: </label>
+                        <input type="text" class="form-control" th:field="*{address}" id="address" placeholder="address"/>
+                        <div style="color:red" th:if="${#fields.hasErrors('address')}" th:errors="*{address}">address error</div>
+                    </div>
+                    <div class="col-12">
+                        <label for="tel" class="form-label">Input telephone: </label>
+                        <input type="text" class="form-control" th:field="*{tel}" id="tel" placeholder="telephone"/>
+                        <div style="color:red" th:if="${#fields.hasErrors('tel')}" th:errors="*{tel}">tel error</div>
+                    </div>
+                    <input type="submit" class="w-25 btn btn-primary btn-lg" value="Update customer"/>
+                </div>
+           </form>
+        </div>
+    </main>
+        <footer th:insert="blocks/footer :: footer"></footer>
+</div>
+</body>
+</html>
+

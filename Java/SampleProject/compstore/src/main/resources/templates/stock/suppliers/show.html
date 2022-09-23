@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Show supplier</title>
+    <link th:href="@{/css/bootstrap/bootstrap.min.css}" rel="stylesheet" />
+    <link th:href="@{/css/style.css}" rel="stylesheet" />
+</head>
+<body class="bg-light">
+<div class="container">
+    <header th:insert="blocks/stockheader :: stockheader"></header>
+    <main>
+        <h4 class="mb-3">Supplier information</h4>
+        <div>
+            <table class="table table-striped">
+
+                <tbody>
+                    <tr>
+                        <td>Supplier Id:</td>
+                        <td><span th:text="${supplier.id}"/></td>
+                    </tr>
+                    <tr>
+                        <td>Name:</td>
+                        <td><span th:text="${supplier.name}"/></td>
+                    </tr>
+                    <tr>
+                        <td>Contact name:</td>
+                        <td><span th:text="${supplier.contactname}"/></td>
+                    </tr>
+                    <tr>
+                        <td>Country:</td>
+                        <td><span th:text="${supplier.country}"/></td>
+                    </tr>
+                    <tr>
+                        <td>Region:</td>
+                        <td><span th:text="${supplier.region}"/></td>
+                    </tr>
+                    <tr>
+                        <td>City:</td>
+                        <td><span th:text="${supplier.city}"/></td>
+                    </tr>
+                    <tr>
+                        <td>Address:</td>
+                        <td><span th:text="${supplier.address}"/></td>
+                    </tr>
+                    <tr>
+                        <td>Telephone:</td>
+                        <td><span th:text="${supplier.tel}"/></td>
+                    </tr>
+                <tbody/>
+            </table>
+            <br/>
+            <form class="form-inline" th:method="GET" th:action="@{/stock/suppliers/{id}/edit(id=${supplier.id})}">
+                <input type="submit" class="w-25 btn btn-primary btn-lg" value="Edit"/>
+            </form>
+            <form class="form-inline" th:method="DELETE" th:action="@{/stock/suppliers/{id}(id=${supplier.id})}">
+                <input type="submit" class="w-25 btn btn-primary btn-lg" value="Delete"/>
+            </form>
+        </div>
+    </main>
+    <footer th:insert="blocks/footer :: footer"></footer>
+</div>
+</body>
+</html>
+
+
+
+

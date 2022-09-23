@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Show customer</title>
+    <link th:href="@{/css/bootstrap/bootstrap.min.css}" rel="stylesheet" />
+    <link th:href="@{/css/style.css}" rel="stylesheet" />
+</head>
+<body class="bg-light">
+<div class="container">
+    <header th:insert="blocks/saleheader :: saleheader"></header>
+    <main>
+        <h4 class="mb-3">Customer information</h4>
+        <div>
+            <table class="table table-striped">
+
+                <tbody>
+                    <tr>
+                        <td>Customer Id:</td>
+                        <td><span th:text="${customer.id}"/></td>
+                    </tr>
+                    <tr>
+                        <td>Name:</td>
+                        <td><span th:text="${customer.name}"/></td>
+                    </tr>
+                    <tr>
+                        <td>Surname:</td>
+                        <td><span th:text="${customer.surname}"/></td>
+                    </tr>
+                    <tr>
+                        <td>Country:</td>
+                        <td><span th:text="${customer.country}"/></td>
+                    </tr>
+                    <tr>
+                        <td>Region:</td>
+                        <td><span th:text="${customer.region}"/></td>
+                    </tr>
+                    <tr>
+                        <td>City:</td>
+                        <td><span th:text="${customer.city}"/></td>
+                    </tr>
+                    <tr>
+                        <td>Address:</td>
+                        <td><span th:text="${customer.zipcode}"/></td>
+                    </tr>
+                    <tr>
+                        <td>ZIP code:</td>
+                        <td><span th:text="${customer.address}"/></td>
+                    </tr>
+                    <tr>
+                        <td>Telephone:</td>
+                        <td><span th:text="${customer.tel}"/></td>
+                    </tr>
+                <tbody/>
+            </table>
+            <br/>
+            <form class="form-inline" th:method="GET" th:action="@{/sales/customers/{id}/edit(id=${customer.id})}">
+                <input type="submit" class="w-25 btn btn-primary btn-lg" value="Edit"/>
+            </form>
+            <form class="form-inline" th:method="DELETE" th:action="@{/sales/customers/{id}(id=${customer.id})}">
+                <input type="submit" class="w-25 btn btn-primary btn-lg" value="Delete"/>
+            </form>
+        </div>
+    </main>
+    <footer th:insert="blocks/footer :: footer"></footer>
+</div>
+</body>
+</html>
+
+
+
+

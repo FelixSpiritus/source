@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>New supply</title>
+    <link th:href="@{/css/bootstrap/bootstrap.min.css}" rel="stylesheet" />
+    <link th:href="@{/css/style.css}" rel="stylesheet" />
+</head>
+<body class="bg-light">
+<div class="container">
+    <header th:insert="blocks/saleheader :: saleheader"></header>
+    <main>
+        <h4 class="mb-3">Order creator</h4>
+        <div>
+            <form th:action="@{/sales/orders}" th:method="post" th:object="${order}">
+                <div class="row g-5">
+                    <div class="col-sm-6">
+                        <label for="customer" class="form-label">Select customer:</label>
+                        <select id="customer" class="form-control" th:field="*{customer}" name="customer">
+                            <option value="">customers list</option>
+                            <option th:each="cust:${customers}"
+                                    th:value="${cust.id}"
+                                    th:text="${cust.surname+' '+cust.companyname}"></option>
+                        </select>
+                        <div style="color:red" th:if="${#fields.hasErrors('customer')}" th:errors="*{customer}">customer error</div>
+                    </div>
+                    <div class="col-sm-6">
+                        <label for="condition" class="form-label">Select condition:</label>
+                        <select id="condition" class="form-control"  th:field="*{condition}" name="storage">
+                            <option value="">storage list</option>
+                            <option th:each="stor:${conditions}"
+                                    th:value="${stor.id}"
+                                    th:text="${stor.title}"></option>
+                        </select>
+                        <div style="color:red" th:if="${#fields.hasErrors('condition')}" th:errors="*{condition}">condition error</div>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="person" class="form-label">Select person:</label>
+                        <select id="person" class="form-control" th:field="*{person}" name="person name">
+                            <option value="">persons list</option>
+                            <option th:each="person:${people}"
+                                    th:value="${person.id}"
+                                    th:text="${person.name+' '+person.surname}"></option>
+                        </select>
+                        <div style="color:red" th:if="${#fields.hasErrors('person')}" th:errors="*{person}">product error</div>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="receiptdate"class="form-label">Receipt date: </label>
+                        <input type="date" class="form-control" th:field="*{receiptdate}" id="receiptdate" placeholder="receipt date"/>
+                        <div style="color:red" th:if="${#fields.hasErrors('receiptdate')}" th:errors="*{receiptdate}">receipt date error</div>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="shipdate"class="form-label">Ship date: </label>
+                        <input type="date" class="form-control"  th:field="*{shipdate}" id="shipdate" placeholder="shipdate date"/>
+                        <div style="color:red" th:if="${#fields.hasErrors('shipdate')}" th:errors="*{shipdate}">ship date error</div>
+                    </div>
+
+                    <input type="submit" class="w-25 btn btn-primary btn-lg" value="Create order"/>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer th:insert="blocks/footer :: footer"></footer>
+</div>
+</body>
+</html>

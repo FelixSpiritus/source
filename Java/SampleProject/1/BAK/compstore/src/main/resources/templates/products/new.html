@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>New person</title>
+</head>
+<body>
+<form th:action="@{/products}" th:method="post" th:object="${product}">
+    <label for="productGroup">Select product group:</label>
+    <select id="productGroup" th:field="*{productGroup}" name="productGroup">
+        <option value="">product groups list</option>
+        <option th:each="pg:${productGroups}"
+                th:value="${pg.id}"
+                th:text="${pg.title}"></option>
+    </select>
+    <div style="color:red" th:if="${#fields.hasErrors('productGroup')}" th:errors="*{productGroup}">title error</div>
+    <br/>
+    <label for="title">Input title: </label>
+    <input type="text" th:field="*{title}" id="title" placeholder="title"/>
+    <div style="color:red" th:if="${#fields.hasErrors('title')}" th:errors="*{title}">title error</div>
+    <br/>
+    <label for="spec">Input specification: </label>
+    <input type="text" th:field="*{spec}" id="spec" placeholder="specification"/>
+    <div style="color:red" th:if="${#fields.hasErrors('spec')}" th:errors="*{spec}">spec error</div>
+    <br/>
+    <label for="size">Input size: </label>
+    <input type="text" th:field="*{size}" id="size" placeholder="size"/>
+    <div style="color:red" th:if="${#fields.hasErrors('size')}" th:errors="*{size}">size error</div>
+    <br/>
+    <label for="weight">Input weight: </label>
+    <input type="text" th:field="*{weight}" id="weight" placeholder="weight"/>
+    <div style="color:red" th:if="${#fields.hasErrors('weight')}" th:errors="*{weight}">weight error</div>
+    <br/>
+    <label for="country">Input country: </label>
+    <input type="text" th:field="*{country}" id="country" placeholder="country"/>
+    <div style="color:red" th:if="${#fields.hasErrors('country')}" th:errors="*{country}">country error</div>
+    <br/>
+    <label for="manufacturer">Input manufacturer: </label>
+    <input type="text" th:field="*{manufacturer}" id="manufacturer" placeholder="manufacturer"/>
+    <div style="color:red" th:if="${#fields.hasErrors('manufacturer')}" th:errors="*{country}">manufacturer error</div>
+    <br/>
+    <input type="submit" value="Add product"/>
+</form>
+
+</body>
+</html>

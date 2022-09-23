@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>New order items</title>
+    <link th:href="@{/css/bootstrap/bootstrap.min.css}" rel="stylesheet" />
+    <link th:href="@{/css/style.css}" rel="stylesheet" />
+</head>
+<body class="bg-light">
+<div class="container">
+    <header th:insert="blocks/saleheader :: saleheader"></header>
+    <main>
+        <h4 class="mb-3">Order items creator</h4>
+        <div>
+            <table class="table table-striped">
+
+                <tbody>
+                <tr>
+                    <td>Order Id:</td>
+                    <td><span th:text="${order.id}"/></td>
+                </tr>
+                <tr>
+                    <td>Customer:</td>
+                    <td><span th:text="${order.customer.companyname}"/></td>
+                </tr>
+                <tr>
+                    <td>Condition:</td>
+                    <td><span th:text="${order.condition.title}"/></td>
+                </tr>
+                <tr>
+                    <td>Receipt date:</td>
+                    <td><span th:text="${order.receiptdate}"/></td>
+                </tr>
+                <tr>
+                    <td>Ship date:</td>
+                    <td><span th:text="${order.shipdate}"/></td>
+                </tr>
+                <tr>
+                    <td>Responsible person:</td>
+                    <td><span th:text="${order.person.name+' '+order.person.surname}"/></td>
+                </tr>
+                <tbody/>
+            </table>
+        </div>
+                  <hr class="my-4">
+                  <div class="col-md-3" th:object="${productGr}">
+                    <label for="productGroup" class="form-label">Select product group:</label>
+                    <select id="productGroup" class="form-control" th:field="*{id}" name="productGroup">
+                      <option value="">product groups list</option>
+                      <option th:each="pg:${productGroups}"
+                              th:value="${pg.id}"
+                              th:text="${pg.title}"></option>
+                    </select>
+                  </div>
+                  <table class="table table-hover">
+                    <thead>
+                    <tr>
+                      <th>Pid</th>
+                      <th>Title</th>
+                      <th>Wholesale</th>
+                      <th>Retail</th>
+                      <th>Qty in stock</th>
+                      <th>Stock</th>
+                      <th>Price in order</th>
+                      <th>Qty in order</th>
+                      <th></th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                      <tr th:each="pis : ${productsInStock}">
+                          <form th:action="@{/sales/orderitems/new/{id}(id=${order.id})}" th:method="post" th:object="${orderItm}">
+                            <td><a th:text="${(pis.product_id)}">product</a></td>
+                            <td><a th:text="${(pis.ptitle)}">product</a></td>
+                            <td><a th:text="${pis.pricewh}">product</a></td>
+                            <td><a th:text="${pis.priceret}">product</a></td>
+                            <td><a th:text="${pis.qtyinstorage}">product</a></td>
+                            <td><a th:text="${pis.sttitle}">product</a></td>
+                            <td><a th:text="${pis.priceret}">product</a></td>
+                            <td><select id="order_qty" th:field="*{quantity}" name="order_qty">
+                              <option value="1">1 pcs</option>
+                              <option th:each="i : ${#numbers.sequence( 2, pis.qtyinstorage)}"
+                                      th:value="${i}"
+                                      th:text="${i+' pcs'}"></option>
+                            </select></td>
+                            <td><input type="hidden" th:id="*{order}" th:value="${(order.id)}" name="order"/>
+                                <input type="hidden" th:id="*{storageItems}" th:value="${(pis.stitemid)}" name="storageItems"/>
+                                <input type="hidden"  th:id="*{price}" th:value="${pis.priceret}" name="price"/>
+                                <input type="submit" value="Add to order"/>
+                            </td>
+                          </form>
+                      </tr>
+                  </tbody>
+                  </table>
+        <hr class="my-4">
+        <h4 class="mb-2">Items in order</h4>
+        <table class="table table-hover">
+            <thead>
+            <tr>
+                <th>Pid</th>
+                <th>Title</th>
+                <th>Qty in order</th>
+                <th>Price in order</th>
+                <th></th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="tmp : ${soldProducts}">
+                <form th:action="@{/sales/orderitems/remove/{id}/{oiid}(id=${order.id},oiid=${tmp.orditemid})}" th:method="post">
+                    <td><a th:text="${(tmp.product_id)}">product</a></td>
+                    <td><a th:text="${(tmp.ptitle)}">product</a></td>
+                    <td><a th:text="${tmp.qtyinorder}">product</a></td>
+                    <td><a th:text="${tmp.saleprice}">product</a></td>
+                    <td><input type="submit" value="Remove from order"/></td>
+                </form>
+            </tr>
+            </tbody>
+        </table>
+        <h4 class="mb-3" th:text="'Total: '+${orderSum}">creator</h4>
+    </main>
+    <footer th:insert="blocks/footer :: footer"></footer>
+</div>
+<script th:inline="javascript">
+    function selectProductGroup(){
+
+        var val = document.getElementById("productGroup").value;
+        var lnk = [[@{/sales/orderitems/new/{id}/(id=${order.id})}]]+val;
+        var thv=[[${productGroup}]]
+        console.log(lnk);
+        console.log(val);
+        document.location.href=lnk;
+        console.log(thv);
+
+    }
+    var selPG = document.getElementById("productGroup");
+    selPG.addEventListener("change", selectProductGroup);
+</script>
+</body>
+</html>

@@ -21,16 +21,16 @@ public class OrderItems {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @NotNull(message = "Storage item required")
+    @NotNull(message = "Field required")
     @ManyToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "storageItems_id", referencedColumnName = "id")
     private StorageItems storageItems;
 
-    @NotEmpty(message = "Sale price can't be empty")
+    @NotNull(message = "Sale price can't be empty")
     @Column(name = "saleprice")
     private Double price;
 
-    @NotEmpty(message = "Product can't be empty")
+    @NotNull(message = "Product can't be empty")
     @Column(name = "qtyinorder")
     private Integer quantity;
 
@@ -44,5 +44,16 @@ public class OrderItems {
         this.price = price;
         this.quantity = quantity;
         this.order = order;
+    }
+
+    @Override
+    public String toString() {
+        return "OrderItems{" +
+                "id=" + id +
+                ", storageItems=" + storageItems.getId() +
+                ", price=" + price +
+                ", quantity=" + quantity +
+                ", order=" + order.getId() +
+                '}';
     }
 }

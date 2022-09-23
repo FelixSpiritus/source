@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Suppliers list</title>
+    <link th:href="@{/css/bootstrap/bootstrap.min.css}" rel="stylesheet" />
+    <link th:href="@{/css/style.css}" rel="stylesheet" />
+</head>
+<body class="bg-light">
+<div class="container">
+    <header th:insert="blocks/stockheader :: stockheader"></header>
+    <main>
+        <h4 class="mb-3">Suppliers list</h4>
+        <div>
+            <table class="table table-hover">
+                <thead>
+                <tr>
+                    <th>Supplier id</th>
+                    <th>Supplier name</th>
+                    <th>Supplier contactname</th>
+                    <th>Supplier tel</th>
+                </tr>
+                </thead>
+                <tbody>
+                <div th:each="supp : ${suppliers}">
+                    <tr>
+                        <td><a class="link_list_row" th:href="@{/stock/suppliers/{id}(id=${supp.id})}"
+                               th:text="${(supp.id)}">supplier</a></td>
+                        <td><a class="link_list_row" th:href="@{/stock/suppliers/{id}(id=${supp.id})}"
+                               th:text="${(supp.name)}">supplier</a></td>
+                        <td><a class="link_list_row" th:href="@{/stock/suppliers/{id}(id=${supp.id})}"
+                               th:text="${(supp.contactname)}">supplier</a></td>
+                        <td><a class="link_list_row" th:href="@{/stock/suppliers/{id}(id=${supp.id})}"
+                               th:text="${supp.tel}">supplier</a></td>
+                    </tr>
+                </div>
+                <tbody/>
+            </table>
+            <br/>
+            <form th:method="GET" th:action="@{/stock/suppliers/new}">
+                <input type="submit" class="w-25 btn btn-primary btn-lg" value="Create new supplier"/>
+            </form>
+        </div>
+    </main>
+    <footer th:insert="blocks/footer :: footer"></footer>
+</div>
+</body>
+</html>

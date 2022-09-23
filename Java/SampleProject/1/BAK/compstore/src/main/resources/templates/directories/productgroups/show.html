@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Product group information</title>
+    <link th:href="@{/css/bootstrap/bootstrap.min.css}" rel="stylesheet" />
+    <link th:href="@{/css/style.css}" rel="stylesheet" />
+</head>
+<body class="bg-light">
+<div class="container">
+    <header th:insert="blocks/header :: header"></header>
+    <main>
+        <h4 class="mb-3">Product group information</h4>
+        <div>
+            <table class="table table-striped">
+
+                <tbody>
+                <tr>
+                    <td>Product group Id:</td>
+                    <td><span th:text="${productGroup.id}"/></td>
+                </tr>
+                <tr>
+                    <td>Title:</td>
+                    <td><span th:text="${productGroup.title}"/></td>
+                </tr>
+                <tr>
+                    <td>Description:</td>
+                    <td><span th:text="${productGroup.descr}"/></td>
+                </tr>
+                <tbody/>
+            </table>
+            <br/>
+            <form class="form-inline" th:method="GET" th:action="@{/directories/productgroups/{id}/edit(id=${productGroup.id})}">
+                <input type="submit" class="w-25 btn btn-primary btn-lg" value="Edit"/>
+            </form>
+            <form class="form-inline" th:method="DELETE" th:action="@{/directories/productgroups/{id}(id=${productGroup.id})}">
+                <input type="submit" class="w-25 btn btn-primary btn-lg" value="Delete"/>
+            </form>
+        </div>
+    </main>
+    <footer th:insert="blocks/footer :: footer"></footer>
+</div>
+</body>
+</html>
+
+<!--<body>-->
+<!--<p th:text="${'Title: '+productGroup.title}">VALUE</p>-->
+<!--<p th:text="${'Description: '+productGroup.descr}">VALUE</p>-->
+<!--<p th:text="${'Id: '+productGroup.id}">VALUE</p>-->
+<!--<a th:href="@{/productgroups/{id}/edit(id=${productGroup.id})}">Edit</a>-->
+
+
+<!--<form th:method="GET" th:action="@{/productgroups/{id}/edit(id=${productGroup.id})}">-->
+<!--    <input type="submit" value="Edit"/>-->
+<!--</form>-->
+<!--<form th:method="DELETE" th:action="@{/productgroups/{id}(id=${productGroup.id})}">-->
+<!--    <input type="submit" value="Delete"/>-->
+<!--</form>-->
+<!--</body>-->
